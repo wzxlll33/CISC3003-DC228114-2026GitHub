@@ -1,0 +1,251 @@
+/* ==========================================================================
+   TASTE OF MACAU — Base Styles
+   CSS Reset · Typography · Global defaults
+   ========================================================================== */
+
+/* ── Modern CSS Reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  tab-size: 4;
+}
+
+body {
+  font-family: var(--font-sans, var(--font-body));
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--color-text-primary);
+  background-color: var(--color-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Images */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form elements inherit font */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove default button styles */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Prevent text overflow */
+p,
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Remove default anchor decoration */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ── Typography hierarchy ── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans, var(--font-display));
+  font-weight: var(--weight-bold, 700);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text-primary);
+}
+
+h1 { font-size: clamp(1.875rem, 5vw, 3rem); }    /* 30–48px */
+h2 { font-size: clamp(1.5rem, 3.5vw, 2.25rem); } /* 24–36px */
+h3 { font-size: clamp(1.25rem, 2.5vw, 1.875rem); }/* 20–30px */
+h4 { font-size: 1.25rem; }   /* 20px */
+h5 { font-size: 1rem; }      /* 16px */
+h6 { font-size: 0.875rem; }  /* 14px */
+
+p {
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-secondary);
+}
+
+/* Inline text */
+strong, b { font-weight: 700; }
+em, i     { font-style: italic; }
+
+small {
+  font-size: var(--text-xs);
+  color: var(--color-slate);
+}
+
+/* Links */
+a {
+  color: var(--color-gold);
+  transition: var(--transition-color);
+}
+
+a:hover {
+  color: var(--color-gold-dark);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: var(--radius-md);
+}
+
+/* Code */
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+code {
+  background: var(--color-snow);
+  color: var(--color-text-primary);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius-md);
+}
+
+pre {
+  background: var(--color-macau-dark);
+  color: var(--color-text-inverse);
+  padding: var(--space-4);
+  border-radius: var(--radius-2xl);
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* Blockquote — full border, not side-stripe */
+blockquote {
+  border: 1px solid var(--color-gold-border);
+  background: var(--color-gold-muted);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-2xl);
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+/* HR */
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border-light);
+  margin: var(--space-6) 0;
+}
+
+/* ── Selection (street-sign tint) ── */
+::selection {
+  background-color: rgba(15, 78, 150, 0.20);
+  color: var(--color-ink);
+}
+
+::-moz-selection {
+  background-color: rgba(15, 78, 150, 0.20);
+  color: var(--color-ink);
+}
+
+/* ── Focus Styles (Accessibility) ── */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Scrollbar (Webkit) ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-snow);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(132, 142, 156, 0.35);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(132, 142, 156, 0.55);
+}
+
+/* ── Main layout wrapper ── */
+main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
+
+/* ── iOS safe area for footer ── */
+.site-footer {
+  padding-bottom: calc(var(--space-8) + env(safe-area-inset-bottom, 0));
+}
+
+/* ── Mobile font size floor ── */
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 1rem; /* 16px — never below */
+  }
+}
