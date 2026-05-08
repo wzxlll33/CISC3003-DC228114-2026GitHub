@@ -44,12 +44,14 @@ $feedbackOpenLabel = [
                 class="explore-search__input"
                 type="search"
                 placeholder="<?= $this->escape($t('explore.searchPlaceholder')) ?>"
+                data-i18n-placeholder="explore.searchPlaceholder"
                 autocomplete="off"
             >
             <button
                 type="button"
                 class="explore-search__tools"
                 data-toggle-tools
+                data-i18n-aria-label="explore.openTools"
                 aria-label="<?= $this->escape($t('explore.openTools')) ?>"
                 aria-controls="explore-tools-panel"
                 aria-expanded="false"
@@ -71,33 +73,33 @@ $feedbackOpenLabel = [
 
         <div id="explore-tools-panel" class="explore-tools-menu" data-explore-tools hidden>
             <div class="explore-search-shell__title">
-                <span><?= $this->escape($t('explore.toolsTitle')) ?></span>
-                <strong><?= $this->escape($t('explore.toolsStrong')) ?></strong>
+                <span data-i18n="explore.toolsTitle"><?= $this->escape($t('explore.toolsTitle')) ?></span>
+                <strong data-i18n="explore.toolsStrong"><?= $this->escape($t('explore.toolsStrong')) ?></strong>
             </div>
 
             <div class="explore-actions" aria-label="<?= $this->escape($t('explore.toolsAria')) ?>">
                 <button type="button" class="explore-action" data-open-results aria-controls="explore-results-panel" aria-expanded="true">
                     <span aria-hidden="true">☰</span>
-                    <span><?= $this->escape($t('explore.list')) ?></span>
+                    <span data-i18n="explore.list"><?= $this->escape($t('explore.list')) ?></span>
                     <strong data-results-count><?= count($restaurants) ?></strong>
                 </button>
                 <button type="button" class="explore-action" data-open-filters aria-haspopup="dialog" aria-controls="explore-filter-panel" aria-expanded="false">
                     <span aria-hidden="true">⛃</span>
-                    <span><?= $this->escape($t('explore.filter')) ?></span>
+                    <span data-i18n="explore.filter"><?= $this->escape($t('explore.filter')) ?></span>
                 </button>
                 <button type="button" class="explore-action" data-open-must-eat aria-controls="explore-must-eat-drawer" aria-expanded="false">
                     <span aria-hidden="true">🏆</span>
-                    <span><?= $this->escape($t('explore.mustEat')) ?></span>
+                    <span data-i18n="explore.mustEat"><?= $this->escape($t('explore.mustEat')) ?></span>
                 </button>
                 <?php if ($isLoggedIn): ?>
                     <a class="explore-action explore-action--link" href="/dashboard/favorites">
                         <span aria-hidden="true">♥</span>
-                        <span><?= $this->escape($t('explore.favorites')) ?></span>
+                        <span data-i18n="explore.favorites"><?= $this->escape($t('explore.favorites')) ?></span>
                     </a>
                 <?php else: ?>
                     <button type="button" class="explore-action" data-open-local-favorites aria-controls="explore-results-panel" aria-expanded="false">
                         <span aria-hidden="true">♥</span>
-                        <span><?= $this->escape($t('explore.favorites')) ?></span>
+                        <span data-i18n="explore.favorites"><?= $this->escape($t('explore.favorites')) ?></span>
                     </button>
                 <?php endif; ?>
             </div>
@@ -148,26 +150,26 @@ $feedbackOpenLabel = [
     <div id="explore-filter-panel" class="explore-filter-panel" data-filter-panel role="dialog" aria-modal="false" aria-labelledby="explore-filter-title" hidden>
         <header class="explore-panel-header">
             <div>
-                <span><?= $this->escape($t('explore.filterLabel')) ?></span>
-                <h2 id="explore-filter-title"><?= $this->escape($t('explore.filterTitle')) ?></h2>
+                <span data-i18n="explore.filterLabel"><?= $this->escape($t('explore.filterLabel')) ?></span>
+                <h2 id="explore-filter-title" data-i18n="explore.filterTitle"><?= $this->escape($t('explore.filterTitle')) ?></h2>
             </div>
-            <button type="button" class="explore-panel-close" data-close-filters aria-label="<?= $this->escape($t('explore.closeFilter')) ?>">×</button>
+            <button type="button" class="explore-panel-close" data-close-filters data-i18n-aria-label="explore.closeFilter" aria-label="<?= $this->escape($t('explore.closeFilter')) ?>">×</button>
         </header>
 
         <section class="explore-filter-group" aria-labelledby="filter-service-title">
-            <h3 id="filter-service-title"><?= $this->escape($t('explore.serviceTitle')) ?></h3>
+            <h3 id="filter-service-title" data-i18n="explore.serviceTitle"><?= $this->escape($t('explore.serviceTitle')) ?></h3>
             <div class="explore-filter-options">
-                <button type="button" class="explore-filter-option is-active" data-filter-service="all"><?= $this->escape($t('explore.serviceAll')) ?></button>
-                <button type="button" class="explore-filter-option" data-filter-service="must-eat"><?= $this->escape($t('explore.serviceMustEat')) ?></button>
-                <button type="button" class="explore-filter-option" data-filter-service="high-rated"><?= $this->escape($t('explore.serviceHighRated')) ?></button>
-                <button type="button" class="explore-filter-option" data-filter-service="nearby"><?= $this->escape($t('explore.serviceNearby')) ?></button>
+                <button type="button" class="explore-filter-option is-active" data-filter-service="all" data-i18n="explore.serviceAll"><?= $this->escape($t('explore.serviceAll')) ?></button>
+                <button type="button" class="explore-filter-option" data-filter-service="must-eat" data-i18n="explore.serviceMustEat"><?= $this->escape($t('explore.serviceMustEat')) ?></button>
+                <button type="button" class="explore-filter-option" data-filter-service="high-rated" data-i18n="explore.serviceHighRated"><?= $this->escape($t('explore.serviceHighRated')) ?></button>
+                <button type="button" class="explore-filter-option" data-filter-service="nearby" data-i18n="explore.serviceNearby"><?= $this->escape($t('explore.serviceNearby')) ?></button>
             </div>
         </section>
 
         <section class="explore-filter-group" aria-labelledby="filter-category-title">
-            <h3 id="filter-category-title"><?= $this->escape($t('explore.categoryTitle')) ?></h3>
+            <h3 id="filter-category-title" data-i18n="explore.categoryTitle"><?= $this->escape($t('explore.categoryTitle')) ?></h3>
             <div class="explore-filter-options explore-filter-options--categories">
-                <button type="button" class="explore-filter-option is-active" data-filter-category="all"><?= $this->escape($t('explore.categoryAll')) ?></button>
+                <button type="button" class="explore-filter-option is-active" data-filter-category="all" data-i18n="explore.categoryAll"><?= $this->escape($t('explore.categoryAll')) ?></button>
                 <?php foreach ($categories as $category): ?>
                     <button
                         type="button"
@@ -179,8 +181,8 @@ $feedbackOpenLabel = [
         </section>
 
         <footer class="explore-filter-actions">
-            <button type="button" class="btn btn--outline" data-reset-filters><?= $this->escape($t('explore.reset')) ?></button>
-            <button type="button" class="btn btn--primary" data-apply-filters><?= $this->escape($t('explore.apply')) ?></button>
+            <button type="button" class="btn btn--outline" data-reset-filters data-i18n="explore.reset"><?= $this->escape($t('explore.reset')) ?></button>
+            <button type="button" class="btn btn--primary" data-apply-filters data-i18n="explore.apply"><?= $this->escape($t('explore.apply')) ?></button>
         </footer>
     </div>
 
