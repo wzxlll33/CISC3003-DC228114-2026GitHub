@@ -1,0 +1,3357 @@
+{
+  "sample_reviews": false,
+  "categories": [
+    {
+      "slug": "street-snacks",
+      "name_en": "Street Snacks",
+      "name_zh": "街頭小吃",
+      "name_pt": "Petiscos de Rua",
+      "icon": "🍢"
+    },
+    {
+      "slug": "desserts",
+      "name_en": "Desserts",
+      "name_zh": "甜品",
+      "name_pt": "Sobremesas",
+      "icon": "🍮"
+    },
+    {
+      "slug": "portuguese",
+      "name_en": "Portuguese Cuisine",
+      "name_zh": "葡式菜",
+      "name_pt": "Cozinha Portuguesa",
+      "icon": "🇵🇹"
+    },
+    {
+      "slug": "main-dishes",
+      "name_en": "Main Dishes",
+      "name_zh": "主菜",
+      "name_pt": "Pratos Principais",
+      "icon": "🍽️"
+    }
+  ],
+  "foods": [
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Pork Chop Bun",
+      "name_zh": "豬扒包",
+      "name_pt": "Sandes de Costeleta de Porco",
+      "description_zh": "豬扒包是澳門街頭小吃中的招牌菜式，可在大利來記、瑪嘉烈蛋撻、利安咖啡屋找到。",
+      "description_en": "Pork Chop Bun is a signature item in Macau's street snacks scene, listed at Tai Lei Loi Kei, Margaret's Café e Nata, Lei On Café.",
+      "description_pt": "Pork Chop Bun é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Tai Lei Loi Kei, Café e Nata de Margaret, Café Lei On.",
+      "image_url": "https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1525076,
+      "longitude": 113.5558961,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.17
+    },
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Curry Fish Balls",
+      "name_zh": "咖哩魚蛋",
+      "name_pt": "Bolinhas de Peixe com Caril",
+      "description_zh": "咖哩魚蛋是澳門街頭小吃中的招牌菜式，可在大利來記找到。",
+      "description_en": "Curry Fish Balls is a signature item in Macau's street snacks scene, listed at Tai Lei Loi Kei.",
+      "description_pt": "Curry Fish Balls é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Tai Lei Loi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1525076,
+      "longitude": 113.5558961,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Pork Chop Noodles",
+      "name_zh": "豬扒麵",
+      "name_pt": "Massa com Costeleta de Porco",
+      "description_zh": "豬扒麵是澳門街頭小吃中的招牌菜式，可在大利來記找到。",
+      "description_en": "Pork Chop Noodles is a signature item in Macau's street snacks scene, listed at Tai Lei Loi Kei.",
+      "description_pt": "Pork Chop Noodles é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Tai Lei Loi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1525076,
+      "longitude": 113.5558961,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Chicken Biscuits",
+      "name_zh": "雞仔餅",
+      "name_pt": "Biscoitos de Galinha",
+      "description_zh": "雞仔餅是澳門街頭小吃中的招牌菜式，可在晃記餅家找到。",
+      "description_en": "Chicken Biscuits is a signature item in Macau's street snacks scene, listed at Fong Kei Bakery.",
+      "description_pt": "Chicken Biscuits é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Pastelaria Fong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1534793,
+      "longitude": 113.5569583,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Walnut Cookies",
+      "name_zh": "合桃酥",
+      "name_pt": "Biscoitos de Noz",
+      "description_zh": "合桃酥是澳門街頭小吃中的招牌菜式，可在晃記餅家找到。",
+      "description_en": "Walnut Cookies is a signature item in Macau's street snacks scene, listed at Fong Kei Bakery.",
+      "description_pt": "Walnut Cookies é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Pastelaria Fong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1534793,
+      "longitude": 113.5569583,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Kam Chin Biscuit",
+      "name_zh": "金錢餅",
+      "name_pt": "Biscoito Kam Chin",
+      "description_zh": "金錢餅是澳門街頭小吃中的招牌菜式，可在晃記餅家找到。",
+      "description_en": "Kam Chin Biscuit is a signature item in Macau's street snacks scene, listed at Fong Kei Bakery.",
+      "description_pt": "Kam Chin Biscuit é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Pastelaria Fong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1534793,
+      "longitude": 113.5569583,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "street-snacks",
+      "name_en": "Banana Cake",
+      "name_zh": "香蕉糕",
+      "name_pt": "Bolo de Banana",
+      "description_zh": "香蕉糕是澳門街頭小吃中的招牌菜式，可在晃記餅家找到。",
+      "description_en": "Banana Cake is a signature item in Macau's street snacks scene, listed at Fong Kei Bakery.",
+      "description_pt": "Banana Cake é uma especialidade associada à categoria Petiscos de Rua em Macau, presente em Pastelaria Fong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1534793,
+      "longitude": 113.5569583,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Portuguese Egg Tart",
+      "name_zh": "葡式蛋撻",
+      "name_pt": "Pastel de Nata",
+      "description_zh": "葡式蛋撻是澳門甜品中的招牌菜式，可在安德魯餅店（路環總店）、瑪嘉烈蛋撻找到。",
+      "description_en": "Portuguese Egg Tart is a signature item in Macau's desserts scene, listed at Lord Stow's Bakery (Coloane), Margaret's Café e Nata.",
+      "description_pt": "Portuguese Egg Tart é uma especialidade associada à categoria Sobremesas em Macau, presente em Pastelaria Lord Stow (Coloane), Café e Nata de Margaret.",
+      "image_url": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1182384,
+      "longitude": 113.5513167,
+      "area_en": "Coloane",
+      "area_zh": "路環",
+      "area_pt": "Coloane",
+      "price_range": "$",
+      "rating": 4.4
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Cheesecake",
+      "name_zh": "芝士蛋糕",
+      "name_pt": "Cheesecake",
+      "description_zh": "芝士蛋糕是澳門甜品中的招牌菜式，可在安德魯餅店（路環總店）找到。",
+      "description_en": "Cheesecake is a signature item in Macau's desserts scene, listed at Lord Stow's Bakery (Coloane).",
+      "description_pt": "Cheesecake é uma especialidade associada à categoria Sobremesas em Macau, presente em Pastelaria Lord Stow (Coloane).",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1182384,
+      "longitude": 113.5513167,
+      "area_en": "Coloane",
+      "area_zh": "路環",
+      "area_pt": "Coloane",
+      "price_range": "$",
+      "rating": 4.6
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Croissant",
+      "name_zh": "牛角包",
+      "name_pt": "Croissant",
+      "description_zh": "牛角包是澳門甜品中的招牌菜式，可在安德魯餅店（路環總店）找到。",
+      "description_en": "Croissant is a signature item in Macau's desserts scene, listed at Lord Stow's Bakery (Coloane).",
+      "description_pt": "Croissant é uma especialidade associada à categoria Sobremesas em Macau, presente em Pastelaria Lord Stow (Coloane).",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1182384,
+      "longitude": 113.5513167,
+      "area_en": "Coloane",
+      "area_zh": "路環",
+      "area_pt": "Coloane",
+      "price_range": "$",
+      "rating": 4.6
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Iced Milk Tea",
+      "name_zh": "凍奶茶",
+      "name_pt": "Chá com Leite Gelado",
+      "description_zh": "凍奶茶是澳門甜品中的招牌菜式，可在瑪嘉烈蛋撻找到。",
+      "description_en": "Iced Milk Tea is a signature item in Macau's desserts scene, listed at Margaret's Café e Nata.",
+      "description_pt": "Iced Milk Tea é uma especialidade associada à categoria Sobremesas em Macau, presente em Café e Nata de Margaret.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.19184,
+      "longitude": 113.54196,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Musang King Durian Ice Cream",
+      "name_zh": "貓山王榴槤雪糕",
+      "name_pt": "Gelado de Durian Musang King",
+      "description_zh": "貓山王榴槤雪糕是澳門甜品中的招牌菜式，可在莫義記找到。",
+      "description_en": "Musang King Durian Ice Cream is a signature item in Macau's desserts scene, listed at Mok Yi Kei.",
+      "description_pt": "Musang King Durian Ice Cream é uma especialidade associada à categoria Sobremesas em Macau, presente em Mok Yi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1533732,
+      "longitude": 113.5571117,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Agar Jelly",
+      "name_zh": "大菜糕",
+      "name_pt": "Gelatina de Agar",
+      "description_zh": "大菜糕是澳門甜品中的招牌菜式，可在莫義記找到。",
+      "description_en": "Agar Jelly is a signature item in Macau's desserts scene, listed at Mok Yi Kei.",
+      "description_pt": "Agar Jelly é uma especialidade associada à categoria Sobremesas em Macau, presente em Mok Yi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1533732,
+      "longitude": 113.5571117,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Serradura",
+      "name_zh": "木糠布甸",
+      "name_pt": "Serradura",
+      "description_zh": "木糠布甸是澳門甜品中的招牌菜式，可在莫義記、Albergue 1601（婆仔屋）找到。",
+      "description_en": "Serradura is a signature item in Macau's desserts scene, listed at Mok Yi Kei, Albergue 1601.",
+      "description_pt": "Serradura é uma especialidade associada à categoria Sobremesas em Macau, presente em Mok Yi Kei, Albergue 1601.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1533732,
+      "longitude": 113.5571117,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$",
+      "rating": 4.3
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Double Skin Milk Pudding",
+      "name_zh": "雙皮奶",
+      "name_pt": "Pudim de Leite de Dupla Pele",
+      "description_zh": "雙皮奶是澳門甜品中的招牌菜式，可在義順牛奶公司找到。",
+      "description_en": "Double Skin Milk Pudding is a signature item in Macau's desserts scene, listed at Yee Shun Milk Company.",
+      "description_pt": "Double Skin Milk Pudding é uma especialidade associada à categoria Sobremesas em Macau, presente em Companhia de Leite Yee Shun.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1947729,
+      "longitude": 113.5380956,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Ginger Milk Curd",
+      "name_zh": "薑汁撞奶",
+      "name_pt": "Leite Coalhado com Gengibre",
+      "description_zh": "薑汁撞奶是澳門甜品中的招牌菜式，可在義順牛奶公司找到。",
+      "description_en": "Ginger Milk Curd is a signature item in Macau's desserts scene, listed at Yee Shun Milk Company.",
+      "description_pt": "Ginger Milk Curd é uma especialidade associada à categoria Sobremesas em Macau, presente em Companhia de Leite Yee Shun.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1947729,
+      "longitude": 113.5380956,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Egg Pudding",
+      "name_zh": "雞蛋布甸",
+      "name_pt": "Pudim de Ovo",
+      "description_zh": "雞蛋布甸是澳門甜品中的招牌菜式，可在義順牛奶公司找到。",
+      "description_en": "Egg Pudding is a signature item in Macau's desserts scene, listed at Yee Shun Milk Company.",
+      "description_pt": "Egg Pudding é uma especialidade associada à categoria Sobremesas em Macau, presente em Companhia de Leite Yee Shun.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1947729,
+      "longitude": 113.5380956,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Steamed Milk Pudding",
+      "name_zh": "燉奶",
+      "name_pt": "Leite Cozido a Vapor",
+      "description_zh": "燉奶是澳門甜品中的招牌菜式，可在義順牛奶公司找到。",
+      "description_en": "Steamed Milk Pudding is a signature item in Macau's desserts scene, listed at Yee Shun Milk Company.",
+      "description_pt": "Steamed Milk Pudding é uma especialidade associada à categoria Sobremesas em Macau, presente em Companhia de Leite Yee Shun.",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1947729,
+      "longitude": 113.5380956,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Baked Egg White",
+      "name_zh": "焗蛋白",
+      "name_pt": "Claras Assadas",
+      "description_zh": "焗蛋白是澳門甜品中的招牌菜式，可在禮記雪糕找到。",
+      "description_en": "Baked Egg White is a signature item in Macau's desserts scene, listed at Lai Kei Ice Cream.",
+      "description_pt": "Baked Egg White é uma especialidade associada à categoria Sobremesas em Macau, presente em Gelados Lai Kei.",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962286,
+      "longitude": 113.5453308,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Ice Cream Sandwich",
+      "name_zh": "三文治雪糕",
+      "name_pt": "Sanduíche de Gelado",
+      "description_zh": "三文治雪糕是澳門甜品中的招牌菜式，可在禮記雪糕找到。",
+      "description_en": "Ice Cream Sandwich is a signature item in Macau's desserts scene, listed at Lai Kei Ice Cream.",
+      "description_pt": "Ice Cream Sandwich é uma especialidade associada à categoria Sobremesas em Macau, presente em Gelados Lai Kei.",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962286,
+      "longitude": 113.5453308,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Mango Ice Cream",
+      "name_zh": "芒果雪糕",
+      "name_pt": "Gelado de Manga",
+      "description_zh": "芒果雪糕是澳門甜品中的招牌菜式，可在禮記雪糕找到。",
+      "description_en": "Mango Ice Cream is a signature item in Macau's desserts scene, listed at Lai Kei Ice Cream.",
+      "description_pt": "Mango Ice Cream é uma especialidade associada à categoria Sobremesas em Macau, presente em Gelados Lai Kei.",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962286,
+      "longitude": 113.5453308,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Coconut Ice Cream",
+      "name_zh": "椰子雪糕",
+      "name_pt": "Gelado de Coco",
+      "description_zh": "椰子雪糕是澳門甜品中的招牌菜式，可在禮記雪糕找到。",
+      "description_en": "Coconut Ice Cream is a signature item in Macau's desserts scene, listed at Lai Kei Ice Cream.",
+      "description_pt": "Coconut Ice Cream é uma especialidade associada à categoria Sobremesas em Macau, presente em Gelados Lai Kei.",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962286,
+      "longitude": 113.5453308,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Almond Cookies",
+      "name_zh": "杏仁餅",
+      "name_pt": "Biscoitos de Amêndoa",
+      "description_zh": "杏仁餅是澳門甜品中的招牌菜式，可在咀香園餅家找到。",
+      "description_en": "Almond Cookies is a signature item in Macau's desserts scene, listed at Koi Kei Bakery.",
+      "description_pt": "Almond Cookies é uma especialidade associada à categoria Sobremesas em Macau, presente em Pastelaria Koi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1936168,
+      "longitude": 113.5392643,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Chinese Pastries",
+      "name_zh": "唐餅",
+      "name_pt": "Pastelaria Chinesa",
+      "description_zh": "唐餅是澳門甜品中的招牌菜式，可在咀香園餅家找到。",
+      "description_en": "Chinese Pastries is a signature item in Macau's desserts scene, listed at Koi Kei Bakery.",
+      "description_pt": "Chinese Pastries é uma especialidade associada à categoria Sobremesas em Macau, presente em Pastelaria Koi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1936168,
+      "longitude": 113.5392643,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "desserts",
+      "name_en": "Phoenix Egg Rolls",
+      "name_zh": "鳳凰卷",
+      "name_pt": "Rolos Phoenix",
+      "description_zh": "鳳凰卷是澳門甜品中的招牌菜式，可在咀香園餅家找到。",
+      "description_en": "Phoenix Egg Rolls is a signature item in Macau's desserts scene, listed at Koi Kei Bakery.",
+      "description_pt": "Phoenix Egg Rolls é uma especialidade associada à categoria Sobremesas em Macau, presente em Pastelaria Koi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1936168,
+      "longitude": 113.5392643,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Tuna Salad",
+      "name_zh": "吞拿魚沙律",
+      "name_pt": "Salada de Atum",
+      "description_zh": "吞拿魚沙律是澳門葡式菜中的招牌菜式，可在Albergue 1601（婆仔屋）找到。",
+      "description_en": "Tuna Salad is a signature item in Macau's portuguese cuisine scene, listed at Albergue 1601.",
+      "description_pt": "Tuna Salad é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Albergue 1601.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1974205,
+      "longitude": 113.5445495,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$$",
+      "rating": 4.5
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Portuguese Seafood Rice",
+      "name_zh": "葡式海鮮飯",
+      "name_pt": "Arroz de Marisco à Portuguesa",
+      "description_zh": "葡式海鮮飯是澳門葡式菜中的招牌菜式，可在Albergue 1601（婆仔屋）找到。",
+      "description_en": "Portuguese Seafood Rice is a signature item in Macau's portuguese cuisine scene, listed at Albergue 1601.",
+      "description_pt": "Portuguese Seafood Rice é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Albergue 1601.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1974205,
+      "longitude": 113.5445495,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$$",
+      "rating": 4.5
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Roast Suckling Pig",
+      "name_zh": "燒乳豬",
+      "name_pt": "Leitão Assado",
+      "description_zh": "燒乳豬是澳門葡式菜中的招牌菜式，可在Albergue 1601（婆仔屋）找到。",
+      "description_en": "Roast Suckling Pig is a signature item in Macau's portuguese cuisine scene, listed at Albergue 1601.",
+      "description_pt": "Roast Suckling Pig é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Albergue 1601.",
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1974205,
+      "longitude": 113.5445495,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$$",
+      "rating": 4.5
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Portuguese Seafood Soup",
+      "name_zh": "葡式海鮮湯",
+      "name_pt": "Sopa de Marisco à Portuguesa",
+      "description_zh": "葡式海鮮湯是澳門葡式菜中的招牌菜式，可在海灣餐廳找到。",
+      "description_en": "Portuguese Seafood Soup is a signature item in Macau's portuguese cuisine scene, listed at Restaurante Litoral.",
+      "description_pt": "Portuguese Seafood Soup é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Litoral.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1873059,
+      "longitude": 113.5311018,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.25
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Baked Duck Rice",
+      "name_zh": "焗鴨飯",
+      "name_pt": "Arroz de Pato no Forno",
+      "description_zh": "焗鴨飯是澳門葡式菜中的招牌菜式，可在海灣餐廳找到。",
+      "description_en": "Baked Duck Rice is a signature item in Macau's portuguese cuisine scene, listed at Restaurante Litoral.",
+      "description_pt": "Baked Duck Rice é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Litoral.",
+      "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1873059,
+      "longitude": 113.5311018,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.25
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Baked Bacalhau with Mashed Potato",
+      "name_zh": "薯茸焗馬介休",
+      "name_pt": "Bacalhau com Puré no Forno",
+      "description_zh": "薯茸焗馬介休是澳門葡式菜中的招牌菜式，可在海灣餐廳找到。",
+      "description_en": "Baked Bacalhau with Mashed Potato is a signature item in Macau's portuguese cuisine scene, listed at Restaurante Litoral.",
+      "description_pt": "Baked Bacalhau with Mashed Potato é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Litoral.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1873059,
+      "longitude": 113.5311018,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.25
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Bacalhau Croquettes",
+      "name_zh": "馬介休球",
+      "name_pt": "Bolinhos de Bacalhau",
+      "description_zh": "馬介休球是澳門葡式菜中的招牌菜式，可在海灣餐廳找到。",
+      "description_en": "Bacalhau Croquettes is a signature item in Macau's portuguese cuisine scene, listed at Restaurante Litoral.",
+      "description_pt": "Bacalhau Croquettes é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Litoral.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1873059,
+      "longitude": 113.5311018,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.25
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Portuguese Stir-fried Clams",
+      "name_zh": "葡式炒蜆",
+      "name_pt": "Amêijoas à Portuguesa",
+      "description_zh": "葡式炒蜆是澳門葡式菜中的招牌菜式，可在沙利文餐廳找到。",
+      "description_en": "Portuguese Stir-fried Clams is a signature item in Macau's portuguese cuisine scene, listed at Solmar Restaurant.",
+      "description_pt": "Portuguese Stir-fried Clams é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Solmar.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1919952,
+      "longitude": 113.5405749,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.05
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "African Chicken",
+      "name_zh": "非洲雞",
+      "name_pt": "Galinha à Africana",
+      "description_zh": "非洲雞是澳門葡式菜中的招牌菜式，可在沙利文餐廳、佛笑樓餐廳找到。",
+      "description_en": "African Chicken is a signature item in Macau's portuguese cuisine scene, listed at Solmar Restaurant, Fat Siu Lau Restaurant.",
+      "description_pt": "African Chicken é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Solmar, Restaurante Fat Siu Lau.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1919952,
+      "longitude": 113.5405749,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.13
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Shredded Potato with Bacalhau",
+      "name_zh": "薯絲炒馬介休",
+      "name_pt": "Bacalhau com Batata Palha",
+      "description_zh": "薯絲炒馬介休是澳門葡式菜中的招牌菜式，可在沙利文餐廳找到。",
+      "description_en": "Shredded Potato with Bacalhau is a signature item in Macau's portuguese cuisine scene, listed at Solmar Restaurant.",
+      "description_pt": "Shredded Potato with Bacalhau é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Solmar.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1919952,
+      "longitude": 113.5405749,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.05
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Portuguese Chicken",
+      "name_zh": "葡國雞",
+      "name_pt": "Galinha à Portuguesa",
+      "description_zh": "葡國雞是澳門葡式菜中的招牌菜式，可在沙利文餐廳找到。",
+      "description_en": "Portuguese Chicken is a signature item in Macau's portuguese cuisine scene, listed at Solmar Restaurant.",
+      "description_pt": "Portuguese Chicken é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Solmar.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1919952,
+      "longitude": 113.5405749,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.05
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Portuguese Stuffed Squid",
+      "name_zh": "葡式釀魷魚",
+      "name_pt": "Lulas Recheadas à Portuguesa",
+      "description_zh": "葡式釀魷魚是澳門葡式菜中的招牌菜式，可在佛笑樓餐廳找到。",
+      "description_en": "Portuguese Stuffed Squid is a signature item in Macau's portuguese cuisine scene, listed at Fat Siu Lau Restaurant.",
+      "description_pt": "Portuguese Stuffed Squid é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Fat Siu Lau.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.19475,
+      "longitude": 113.53755,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Baked Pork Rib Rice",
+      "name_zh": "焗骨飯",
+      "name_pt": "Arroz de Costeletas no Forno",
+      "description_zh": "焗骨飯是澳門葡式菜中的招牌菜式，可在佛笑樓餐廳找到。",
+      "description_en": "Baked Pork Rib Rice is a signature item in Macau's portuguese cuisine scene, listed at Fat Siu Lau Restaurant.",
+      "description_pt": "Baked Pork Rib Rice é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Fat Siu Lau.",
+      "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.19475,
+      "longitude": 113.53755,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "portuguese",
+      "name_en": "Curry Fried Crab",
+      "name_zh": "咖哩炒蟹",
+      "name_pt": "Caranguejo Salteado com Caril",
+      "description_zh": "咖哩炒蟹是澳門葡式菜中的招牌菜式，可在佛笑樓餐廳找到。",
+      "description_en": "Curry Fried Crab is a signature item in Macau's portuguese cuisine scene, listed at Fat Siu Lau Restaurant.",
+      "description_pt": "Curry Fried Crab é uma especialidade associada à categoria Cozinha Portuguesa em Macau, presente em Restaurante Fat Siu Lau.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.19475,
+      "longitude": 113.53755,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Wonton Noodles",
+      "name_zh": "雲吞麵",
+      "name_pt": "Massa com Wonton",
+      "description_zh": "雲吞麵是澳門主菜中的招牌菜式，可在黃枝記找到。",
+      "description_en": "Wonton Noodles is a signature item in Macau's main dishes scene, listed at Wong Chi Kei.",
+      "description_pt": "Wonton Noodles é uma especialidade associada à categoria Pratos Principais em Macau, presente em Wong Chi Kei.",
+      "image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962,
+      "longitude": 113.5373,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.3
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Crab Congee",
+      "name_zh": "水蟹粥",
+      "name_pt": "Canja de Caranguejo",
+      "description_zh": "水蟹粥是澳門主菜中的招牌菜式，可在黃枝記、氹仔漁村找到。",
+      "description_en": "Crab Congee is a signature item in Macau's main dishes scene, listed at Wong Chi Kei, Taipa Village Restaurant.",
+      "description_pt": "Crab Congee é uma especialidade associada à categoria Pratos Principais em Macau, presente em Wong Chi Kei, Restaurante Vila da Taipa.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962,
+      "longitude": 113.5373,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Curry Prawns",
+      "name_zh": "咖哩大蝦",
+      "name_pt": "Gambas com Caril",
+      "description_zh": "咖哩大蝦是澳門主菜中的招牌菜式，可在黃枝記、氹仔漁村找到。",
+      "description_en": "Curry Prawns is a signature item in Macau's main dishes scene, listed at Wong Chi Kei, Taipa Village Restaurant.",
+      "description_pt": "Curry Prawns é uma especialidade associada à categoria Pratos Principais em Macau, presente em Wong Chi Kei, Restaurante Vila da Taipa.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1962,
+      "longitude": 113.5373,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Macanese Minchi",
+      "name_zh": "澳門式免治",
+      "name_pt": "Minchi Macaense",
+      "description_zh": "澳門式免治是澳門主菜中的招牌菜式，可在利安咖啡屋找到。",
+      "description_en": "Macanese Minchi is a signature item in Macau's main dishes scene, listed at Lei On Café.",
+      "description_pt": "Macanese Minchi é uma especialidade associada à categoria Pratos Principais em Macau, presente em Café Lei On.",
+      "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1537411,
+      "longitude": 113.5582639,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Curry Beef Brisket Rice",
+      "name_zh": "咖哩牛腩飯",
+      "name_pt": "Arroz com Peito de Vaca ao Caril",
+      "description_zh": "咖哩牛腩飯是澳門主菜中的招牌菜式，可在利安咖啡屋找到。",
+      "description_en": "Curry Beef Brisket Rice is a signature item in Macau's main dishes scene, listed at Lei On Café.",
+      "description_pt": "Curry Beef Brisket Rice é uma especialidade associada à categoria Pratos Principais em Macau, presente em Café Lei On.",
+      "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1537411,
+      "longitude": 113.5582639,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$$",
+      "rating": 4.2
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Roast Duck Rice Noodles",
+      "name_zh": "燒鴨瀨粉",
+      "name_pt": "Massa de Arroz com Pato Assado",
+      "description_zh": "燒鴨瀨粉是澳門主菜中的招牌菜式，可在陳光記飯店找到。",
+      "description_en": "Roast Duck Rice Noodles is a signature item in Macau's main dishes scene, listed at Chan Kong Kei Restaurant.",
+      "description_pt": "Roast Duck Rice Noodles é uma especialidade associada à categoria Pratos Principais em Macau, presente em Restaurante Chan Kong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.192012,
+      "longitude": 113.541539,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.15
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Black Pepper Roast Goose",
+      "name_zh": "黑椒燒鵝",
+      "name_pt": "Ganso Assado com Pimenta Preta",
+      "description_zh": "黑椒燒鵝是澳門主菜中的招牌菜式，可在陳光記飯店找到。",
+      "description_en": "Black Pepper Roast Goose is a signature item in Macau's main dishes scene, listed at Chan Kong Kei Restaurant.",
+      "description_pt": "Black Pepper Roast Goose é uma especialidade associada à categoria Pratos Principais em Macau, presente em Restaurante Chan Kong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.192012,
+      "longitude": 113.541539,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.15
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Roasted Baked Bacalhau",
+      "name_zh": "燒焗馬介休",
+      "name_pt": "Bacalhau Assado no Forno",
+      "description_zh": "燒焗馬介休是澳門主菜中的招牌菜式，可在陳光記飯店找到。",
+      "description_en": "Roasted Baked Bacalhau is a signature item in Macau's main dishes scene, listed at Chan Kong Kei Restaurant.",
+      "description_pt": "Roasted Baked Bacalhau é uma especialidade associada à categoria Pratos Principais em Macau, presente em Restaurante Chan Kong Kei.",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.192012,
+      "longitude": 113.541539,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "price_range": "$",
+      "rating": 4.15
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Oxtail Stewed in Red Wine",
+      "name_zh": "紅酒燴牛尾",
+      "name_pt": "Rabo de Boi Estufado em Vinho Tinto",
+      "description_zh": "紅酒燴牛尾是澳門主菜中的招牌菜式，可在氹仔漁村找到。",
+      "description_en": "Oxtail Stewed in Red Wine is a signature item in Macau's main dishes scene, listed at Taipa Village Restaurant.",
+      "description_pt": "Oxtail Stewed in Red Wine é uma especialidade associada à categoria Pratos Principais em Macau, presente em Restaurante Vila da Taipa.",
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1521602,
+      "longitude": 113.5553029,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$$",
+      "rating": 4.1
+    },
+    {
+      "category_slug": "main-dishes",
+      "name_en": "Salt and Pepper Bombay Duck Fish",
+      "name_zh": "椒鹽九肚魚",
+      "name_pt": "Peixe Bombaim com Sal e Pimenta",
+      "description_zh": "椒鹽九肚魚是澳門主菜中的招牌菜式，可在氹仔漁村找到。",
+      "description_en": "Salt and Pepper Bombay Duck Fish is a signature item in Macau's main dishes scene, listed at Taipa Village Restaurant.",
+      "description_pt": "Salt and Pepper Bombay Duck Fish é uma especialidade associada à categoria Pratos Principais em Macau, presente em Restaurante Vila da Taipa.",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "latitude": 22.1521602,
+      "longitude": 113.5553029,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "price_range": "$$",
+      "rating": 4.1
+    }
+  ],
+  "restaurants": [
+    {
+      "name_en": "Tai Lei Loi Kei",
+      "name_zh": "大利來記",
+      "name_pt": "Tai Lei Loi Kei",
+      "description_en": "Tai Lei Loi Kei is a classic Taipa snack shop best known for pork chop buns and casual Macau-style comfort food.",
+      "description_zh": "大利來記位於氹仔舊城區，是以豬扒包打響名堂的澳門街頭小吃老店。",
+      "description_pt": "A Tai Lei Loi Kei é uma casa clássica da Taipa, conhecida pela sandes de costeleta de porco e petiscos macaenses.",
+      "address_en": "G/F, 35 Rua Correia da Silva, Taipa, Macau",
+      "address_zh": "澳門氹仔告利雅施利華街35號地舖",
+      "address_pt": "R/C, Rua Correia da Silva, n.º 35, Taipa, Macau",
+      "phone": "+853 2882 7150",
+      "opening_hours": "09:00~18:00",
+      "price_range": "$",
+      "google_rating": 3.7,
+      "amap_rating": 4.5,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1525076,
+      "longitude": 113.5558961,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "image_url": "https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 1,
+          "is_signature": 1
+        },
+        {
+          "food_id": 2,
+          "is_signature": 1
+        },
+        {
+          "food_id": 3,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Fong Kei Bakery",
+      "name_zh": "晃記餅家",
+      "name_pt": "Pastelaria Fong Kei",
+      "description_en": "Fong Kei Bakery is a traditional Rua do Cunha bakery known for old-school Macau pastries and edible souvenirs.",
+      "description_zh": "晃記餅家是官也街的傳統餅店，以手信糕餅和澳門老味道見稱。",
+      "description_pt": "A Pastelaria Fong Kei, na Rua do Cunha, é conhecida pelos doces tradicionais e lembranças comestíveis de Macau.",
+      "address_en": "G/F, 14 Rua do Cunha, Taipa, Macau",
+      "address_zh": "澳門氹仔官也街14號地舖",
+      "address_pt": "R/C, Rua do Cunha, n.º 14, Taipa, Macau",
+      "phone": "+853 2882 7142",
+      "opening_hours": "09:00~20:00（逢星期三休息）",
+      "price_range": "$",
+      "google_rating": 3.8,
+      "amap_rating": 4.4,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1534793,
+      "longitude": 113.5569583,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 4,
+          "is_signature": 1
+        },
+        {
+          "food_id": 5,
+          "is_signature": 1
+        },
+        {
+          "food_id": 6,
+          "is_signature": 1
+        },
+        {
+          "food_id": 7,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Lord Stow's Bakery (Coloane)",
+      "name_zh": "安德魯餅店（路環總店）",
+      "name_pt": "Pastelaria Lord Stow (Coloane)",
+      "description_en": "Lord Stow's Bakery in Coloane is one of Macau's most famous egg tart bakeries, with a compact selection of Western pastries.",
+      "description_zh": "安德魯餅店路環總店是葡式蛋撻名店，亦提供多款西式烘焙甜點。",
+      "description_pt": "A Pastelaria Lord Stow, em Coloane, é uma das casas mais famosas de pastéis de nata em Macau.",
+      "address_en": "G/F, 1 Rua do Tassara, Coloane Village, Macau",
+      "address_zh": "澳門路環市區戴紳禮街1號地下",
+      "address_pt": "R/C, Rua do Tassara, n.º 1, Vila de Coloane, Macau",
+      "phone": "+853 2888 2534",
+      "opening_hours": "07:00~21:00",
+      "price_range": "$",
+      "google_rating": 4.5,
+      "amap_rating": 4.7,
+      "avg_rating": 4.6,
+      "review_count": 0,
+      "latitude": 22.1182384,
+      "longitude": 113.5513167,
+      "area_en": "Coloane",
+      "area_zh": "路環",
+      "area_pt": "Coloane",
+      "image_url": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 8,
+          "is_signature": 1
+        },
+        {
+          "food_id": 9,
+          "is_signature": 1
+        },
+        {
+          "food_id": 10,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Margaret's Café e Nata",
+      "name_zh": "瑪嘉烈蛋撻",
+      "name_pt": "Café e Nata de Margaret",
+      "description_en": "Margaret's Café e Nata is a central Macau bakery famous for caramelised Portuguese egg tarts and quick café snacks.",
+      "description_zh": "瑪嘉烈蛋撻藏身新馬路附近小巷，以焦糖表面的葡式蛋撻和茶飲聞名。",
+      "description_pt": "O Café e Nata de Margaret é famoso pelos pastéis de nata caramelizados e bebidas de café no centro de Macau.",
+      "address_en": "Shop 17B, Kam Loi Building, 66 Patio do Comandante Mata e Oliveira, Macau",
+      "address_zh": "澳門新馬路馬統領圍66號金利來大廈17B地舖",
+      "address_pt": "Loja 17B, Edifício Kam Loi, Pátio do Comandante Mata e Oliveira, n.º 66, Macau",
+      "phone": "+853 2871 0032",
+      "opening_hours": "星期一至五：08:30~16:30, 星期六至日：10:00~18:00（逢星期三休息）",
+      "price_range": "$",
+      "google_rating": 3.9,
+      "amap_rating": 4.5,
+      "avg_rating": 4.2,
+      "review_count": 0,
+      "latitude": 22.19184,
+      "longitude": 113.54196,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 8,
+          "is_signature": 1
+        },
+        {
+          "food_id": 11,
+          "is_signature": 1
+        },
+        {
+          "food_id": 1,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Mok Yi Kei",
+      "name_zh": "莫義記",
+      "name_pt": "Mok Yi Kei",
+      "description_en": "Mok Yi Kei is a popular Rua do Cunha dessert shop known for durian ice cream and classic chilled sweets.",
+      "description_zh": "莫義記是官也街人氣甜品店，以榴槤雪糕和傳統甜品吸引遊客排隊。",
+      "description_pt": "A Mok Yi Kei é uma popular casa de sobremesas na Rua do Cunha, conhecida pelo gelado de durian.",
+      "address_en": "9A Rua do Cunha, Taipa, Macau",
+      "address_zh": "澳門氹仔官也街9A號",
+      "address_pt": "Rua do Cunha, n.º 9A, Taipa, Macau",
+      "phone": "+853 6669 5194",
+      "opening_hours": "09:00~23:00",
+      "price_range": "$",
+      "google_rating": 3.6,
+      "amap_rating": 4.6,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1533732,
+      "longitude": 113.5571117,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 12,
+          "is_signature": 1
+        },
+        {
+          "food_id": 13,
+          "is_signature": 1
+        },
+        {
+          "food_id": 14,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Yee Shun Milk Company",
+      "name_zh": "義順牛奶公司",
+      "name_pt": "Companhia de Leite Yee Shun",
+      "description_en": "Yee Shun Milk Company specialises in milk puddings and classic Hong Kong-Macau dairy desserts on Avenida de Almeida Ribeiro.",
+      "description_zh": "義順牛奶公司主打牛奶甜品，是新馬路一帶經典港澳式甜品店。",
+      "description_pt": "A Yee Shun é especializada em sobremesas de leite no centro histórico de Macau.",
+      "address_en": "381 Avenida de Almeida Ribeiro, Macau",
+      "address_zh": "澳門新馬路381號",
+      "address_pt": "Avenida de Almeida Ribeiro, n.º 381, Macau",
+      "phone": "+853 2837 3104",
+      "opening_hours": "11:00~21:00",
+      "price_range": "$",
+      "google_rating": 3.7,
+      "amap_rating": 4.5,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1947729,
+      "longitude": 113.5380956,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 15,
+          "is_signature": 1
+        },
+        {
+          "food_id": 16,
+          "is_signature": 1
+        },
+        {
+          "food_id": 17,
+          "is_signature": 1
+        },
+        {
+          "food_id": 18,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Lai Kei Ice Cream",
+      "name_zh": "禮記雪糕",
+      "name_pt": "Gelados Lai Kei",
+      "description_en": "Lai Kei Ice Cream keeps an old Macau ice-cream parlour atmosphere with nostalgic frozen desserts.",
+      "description_zh": "禮記雪糕保留懷舊冰室氣氛，以雪糕三文治和傳統口味雪糕聞名。",
+      "description_pt": "A Lai Kei preserva o ambiente das gelatarias antigas de Macau, com sanduíches de gelado e sabores clássicos.",
+      "address_en": "G/F, 12 Avenida do Conselheiro Ferreira de Almeida, Macau",
+      "address_zh": "澳門荷蘭園大馬路12號地下",
+      "address_pt": "R/C, Avenida do Conselheiro Ferreira de Almeida, n.º 12, Macau",
+      "phone": "+853 2837 5781",
+      "opening_hours": "11:00-19:00",
+      "price_range": "$",
+      "google_rating": 3.9,
+      "amap_rating": 4.3,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1962286,
+      "longitude": 113.5453308,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 19,
+          "is_signature": 1
+        },
+        {
+          "food_id": 20,
+          "is_signature": 1
+        },
+        {
+          "food_id": 21,
+          "is_signature": 1
+        },
+        {
+          "food_id": 22,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Koi Kei Bakery",
+      "name_zh": "咀香園餅家",
+      "name_pt": "Pastelaria Koi Kei",
+      "description_en": "Koi Kei Bakery is a well-known Macau souvenir bakery focused on almond cookies and Chinese pastries.",
+      "description_zh": "咀香園餅家是澳門知名手信品牌，以杏仁餅與中式糕餅為主。",
+      "description_pt": "A Koi Kei é uma conhecida pastelaria de lembranças, famosa pelos biscoitos de amêndoa.",
+      "address_en": "209 Avenida de Almeida Ribeiro, Macau",
+      "address_zh": "澳門新馬路209號",
+      "address_pt": "Avenida de Almeida Ribeiro, n.º 209, Macau",
+      "phone": "+853 2835 5966",
+      "opening_hours": "09:30~22:00",
+      "price_range": "$",
+      "google_rating": 3.9,
+      "amap_rating": 4.3,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1936168,
+      "longitude": 113.5392643,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 23,
+          "is_signature": 1
+        },
+        {
+          "food_id": 24,
+          "is_signature": 1
+        },
+        {
+          "food_id": 25,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Albergue 1601",
+      "name_zh": "Albergue 1601（婆仔屋）",
+      "name_pt": "Albergue 1601",
+      "description_en": "Albergue 1601 sits in the historic St. Lazarus quarter and serves Portuguese and Macanese dishes in a heritage setting.",
+      "description_zh": "Albergue 1601 位於婆仔屋文創區，主打葡式與澳葡風味菜式。",
+      "description_pt": "O Albergue 1601 fica no bairro histórico de São Lázaro e serve cozinha portuguesa e macaense.",
+      "address_en": "8 Calçada da Igreja de São Lázaro, Macau",
+      "address_zh": "澳門瘋堂斜巷8號",
+      "address_pt": "Calçada da Igreja de São Lázaro, n.º 8, Macau",
+      "phone": "+853 6386 3796",
+      "opening_hours": "12:00~15:00, 17:30~22:00",
+      "price_range": "$$$",
+      "google_rating": 4.6,
+      "amap_rating": 4.4,
+      "avg_rating": 4.5,
+      "review_count": 0,
+      "latitude": 22.1974205,
+      "longitude": 113.5445495,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 26,
+          "is_signature": 1
+        },
+        {
+          "food_id": 27,
+          "is_signature": 1
+        },
+        {
+          "food_id": 28,
+          "is_signature": 1
+        },
+        {
+          "food_id": 14,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Restaurante Litoral",
+      "name_zh": "海灣餐廳",
+      "name_pt": "Restaurante Litoral",
+      "description_en": "Restaurante Litoral is a long-running Macanese-Portuguese restaurant near the Inner Harbour, known for seafood and baked dishes.",
+      "description_zh": "海灣餐廳位於河邊新街一帶，以葡式海鮮和澳葡家常菜受歡迎。",
+      "description_pt": "O Restaurante Litoral, junto ao Porto Interior, é conhecido pela cozinha macaense-portuguesa e pratos de marisco.",
+      "address_en": "G/F, 261A Rua do Almirante Sérgio, Macau",
+      "address_zh": "澳門河邊新街261號A地下",
+      "address_pt": "R/C, Rua do Almirante Sérgio, n.º 261A, Macau",
+      "phone": "+853 2896 7878",
+      "opening_hours": "12:00-15:00, 17:30-21:30",
+      "price_range": "$$",
+      "google_rating": 4.2,
+      "amap_rating": 4.3,
+      "avg_rating": 4.25,
+      "review_count": 0,
+      "latitude": 22.1873059,
+      "longitude": 113.5311018,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 29,
+          "is_signature": 1
+        },
+        {
+          "food_id": 30,
+          "is_signature": 1
+        },
+        {
+          "food_id": 31,
+          "is_signature": 1
+        },
+        {
+          "food_id": 32,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Solmar Restaurant",
+      "name_zh": "沙利文餐廳",
+      "name_pt": "Restaurante Solmar",
+      "description_en": "Solmar Restaurant is a classic Avenida da Praia Grande dining room serving Portuguese and Macanese favourites.",
+      "description_zh": "沙利文餐廳位於南灣大馬路，是澳門老牌葡國菜餐廳之一。",
+      "description_pt": "O Restaurante Solmar, na Avenida da Praia Grande, serve clássicos portugueses e macaenses.",
+      "address_en": "512 Avenida da Praia Grande, Macau",
+      "address_zh": "澳門南灣大馬路512號",
+      "address_pt": "Avenida da Praia Grande, n.º 512, Macau",
+      "phone": "+853 2888 1881",
+      "opening_hours": "11:30 - 15:30, 16:30 - 22:30",
+      "price_range": "$$",
+      "google_rating": 3.8,
+      "amap_rating": 4.3,
+      "avg_rating": 4.05,
+      "review_count": 0,
+      "latitude": 22.1919952,
+      "longitude": 113.5405749,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 33,
+          "is_signature": 1
+        },
+        {
+          "food_id": 34,
+          "is_signature": 1
+        },
+        {
+          "food_id": 35,
+          "is_signature": 1
+        },
+        {
+          "food_id": 36,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Fat Siu Lau Restaurant",
+      "name_zh": "佛笑樓餐廳",
+      "name_pt": "Restaurante Fat Siu Lau",
+      "description_en": "Fat Siu Lau on Rua da Felicidade is a historic Macau restaurant serving Macanese-Portuguese classics.",
+      "description_zh": "佛笑樓餐廳位於福隆新街，是澳門歷史悠久的澳葡餐廳。",
+      "description_pt": "O Fat Siu Lau, na Rua da Felicidade, é um restaurante histórico de cozinha macaense-portuguesa.",
+      "address_en": "64 Rua da Felicidade, Macau",
+      "address_zh": "澳門福隆新街64號",
+      "address_pt": "Rua da Felicidade, n.º 64, Macau",
+      "phone": "+853 2857 3580",
+      "opening_hours": "12:00-15:00, 17:30-22:00",
+      "price_range": "$$",
+      "google_rating": 4,
+      "amap_rating": 4.4,
+      "avg_rating": 4.2,
+      "review_count": 0,
+      "latitude": 22.19475,
+      "longitude": 113.53755,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 37,
+          "is_signature": 1
+        },
+        {
+          "food_id": 34,
+          "is_signature": 1
+        },
+        {
+          "food_id": 38,
+          "is_signature": 1
+        },
+        {
+          "food_id": 39,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Wong Chi Kei",
+      "name_zh": "黃枝記",
+      "name_pt": "Wong Chi Kei",
+      "description_en": "Wong Chi Kei is a classic Macau noodle shop known for wonton noodles, congee and Cantonese comfort dishes.",
+      "description_zh": "黃枝記以竹升麵、雲吞麵和粥品聞名，是澳門經典麵家。",
+      "description_pt": "A Wong Chi Kei é uma casa clássica de massas, conhecida por wonton noodles e canjas.",
+      "address_en": "G/F, 51 Rua de Cinco de Outubro, Macau",
+      "address_zh": "澳門十月初五日街51號地下",
+      "address_pt": "R/C, Rua de Cinco de Outubro, n.º 51, Macau",
+      "phone": "+853 2892 2271",
+      "opening_hours": "11:00~02:00",
+      "price_range": "$$",
+      "google_rating": 4.1,
+      "amap_rating": 4.5,
+      "avg_rating": 4.3,
+      "review_count": 0,
+      "latitude": 22.1962,
+      "longitude": 113.5373,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 40,
+          "is_signature": 1
+        },
+        {
+          "food_id": 41,
+          "is_signature": 1
+        },
+        {
+          "food_id": 42,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Lei On Café",
+      "name_zh": "利安咖啡屋",
+      "name_pt": "Café Lei On",
+      "description_en": "Lei On Café in Taipa serves Macanese minchi, pork chop buns and hearty café-style rice dishes.",
+      "description_zh": "利安咖啡屋位於氹仔地堡街，供應澳門式免治、飯麵與茶餐廳主食。",
+      "description_pt": "O Café Lei On, na Taipa, serve minchi macaense, sandes de porco e pratos de arroz de café.",
+      "address_en": "79 Rua do Regedor, Taipa, Macau",
+      "address_zh": "澳門氹仔地堡街79號",
+      "address_pt": "Rua do Regedor, n.º 79, Taipa, Macau",
+      "phone": "+853 2830 1189",
+      "opening_hours": "11:30~15:00, 18:00~22.30（逢星期三休息）",
+      "price_range": "$$",
+      "google_rating": 4.2,
+      "amap_rating": 4.2,
+      "avg_rating": 4.2,
+      "review_count": 0,
+      "latitude": 22.1537411,
+      "longitude": 113.5582639,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 43,
+          "is_signature": 1
+        },
+        {
+          "food_id": 1,
+          "is_signature": 1
+        },
+        {
+          "food_id": 44,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Chan Kong Kei Restaurant",
+      "name_zh": "陳光記飯店",
+      "name_pt": "Restaurante Chan Kong Kei",
+      "description_en": "Chan Kong Kei Restaurant is known for roast meats, rice noodles and everyday Cantonese-Macau mains near Nam Van.",
+      "description_zh": "陳光記飯店以燒味和飯麵見稱，是南灣一帶的人氣主食選擇。",
+      "description_pt": "O Restaurante Chan Kong Kei é conhecido pelos assados, massas de arroz e pratos principais de estilo cantonense-macaense.",
+      "address_en": "G/F, 19 Rua do Dr. Pedro José Lobo, Macau",
+      "address_zh": "澳門南灣羅保博士街19號地鋪",
+      "address_pt": "R/C, Rua do Dr. Pedro José Lobo, n.º 19, Macau",
+      "phone": "+853 2871 0378",
+      "opening_hours": "10:30~21:30",
+      "price_range": "$",
+      "google_rating": 3.9,
+      "amap_rating": 4.4,
+      "avg_rating": 4.15,
+      "review_count": 0,
+      "latitude": 22.192012,
+      "longitude": 113.541539,
+      "area_en": "Macau Peninsula",
+      "area_zh": "澳門半島",
+      "area_pt": "Península de Macau",
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 45,
+          "is_signature": 1
+        },
+        {
+          "food_id": 46,
+          "is_signature": 1
+        },
+        {
+          "food_id": 47,
+          "is_signature": 1
+        }
+      ]
+    },
+    {
+      "name_en": "Taipa Village Restaurant",
+      "name_zh": "氹仔漁村",
+      "name_pt": "Restaurante Vila da Taipa",
+      "description_en": "Taipa Village Restaurant serves seafood, congee and hearty mains in the old Taipa village area.",
+      "description_zh": "氹仔漁村位於氹仔舊城區，主打海鮮、粥品和家常主菜。",
+      "description_pt": "O Restaurante Vila da Taipa serve marisco, canjas e pratos principais na zona antiga da Taipa.",
+      "address_en": "Largo Governador Tamagnini Barbosa, Old Taipa Village, Macau",
+      "address_zh": "澳門氹仔舊城區巴波沙總督前地",
+      "address_pt": "Largo Governador Tamagnini Barbosa, Vila Velha da Taipa, Macau",
+      "phone": "+853 2883 8208",
+      "opening_hours": "11:30~23:00",
+      "price_range": "$$",
+      "google_rating": 3.9,
+      "amap_rating": 4.3,
+      "avg_rating": 4.1,
+      "review_count": 0,
+      "latitude": 22.1521602,
+      "longitude": 113.5553029,
+      "area_en": "Taipa",
+      "area_zh": "氹仔",
+      "area_pt": "Taipa",
+      "image_url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80",
+      "foods": [
+        {
+          "food_id": 48,
+          "is_signature": 1
+        },
+        {
+          "food_id": 49,
+          "is_signature": 1
+        },
+        {
+          "food_id": 41,
+          "is_signature": 1
+        },
+        {
+          "food_id": 42,
+          "is_signature": 1
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "slug": "street-food",
+      "name_en": "Street snacks",
+      "name_zh": "街頭小吃",
+      "name_pt": "Petiscos de rua"
+    },
+    {
+      "slug": "dessert-shop",
+      "name_en": "Desserts",
+      "name_zh": "甜品",
+      "name_pt": "Sobremesas"
+    },
+    {
+      "slug": "portuguese-cuisine",
+      "name_en": "Portuguese cuisine",
+      "name_zh": "葡式菜",
+      "name_pt": "Cozinha portuguesa"
+    },
+    {
+      "slug": "main-dishes",
+      "name_en": "Main dishes",
+      "name_zh": "主菜",
+      "name_pt": "Pratos principais"
+    },
+    {
+      "slug": "signature",
+      "name_en": "Signature dishes",
+      "name_zh": "招牌菜式",
+      "name_pt": "Pratos de assinatura"
+    },
+    {
+      "slug": "local-favorite",
+      "name_en": "Local favorite",
+      "name_zh": "本地人氣",
+      "name_pt": "Favorito local"
+    },
+    {
+      "slug": "heritage",
+      "name_en": "Heritage shop",
+      "name_zh": "老字號",
+      "name_pt": "Casa histórica"
+    },
+    {
+      "slug": "taipa",
+      "name_en": "Taipa",
+      "name_zh": "氹仔",
+      "name_pt": "Taipa"
+    },
+    {
+      "slug": "macau-peninsula",
+      "name_en": "Macau Peninsula",
+      "name_zh": "澳門半島",
+      "name_pt": "Península de Macau"
+    },
+    {
+      "slug": "coloane",
+      "name_en": "Coloane",
+      "name_zh": "路環",
+      "name_pt": "Coloane"
+    },
+    {
+      "slug": "budget-friendly",
+      "name_en": "Budget friendly",
+      "name_zh": "親民價格",
+      "name_pt": "Preço acessível"
+    },
+    {
+      "slug": "mid-range",
+      "name_en": "Mid range",
+      "name_zh": "中等價位",
+      "name_pt": "Preço médio"
+    },
+    {
+      "slug": "premium",
+      "name_en": "Premium",
+      "name_zh": "高級餐廳",
+      "name_pt": "Mais requintado"
+    },
+    {
+      "slug": "high-rated",
+      "name_en": "High rated",
+      "name_zh": "高評分",
+      "name_pt": "Bem avaliado"
+    }
+  ],
+  "food_tags": [
+    {
+      "food_id": 1,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 2,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 3,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 4,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 5,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 6,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 7,
+      "tag_slugs": [
+        "street-food",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 8,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 9,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 10,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 11,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 12,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 13,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 14,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 15,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 16,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 17,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 18,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 19,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 20,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 21,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 22,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 23,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 24,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 25,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 26,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 27,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 28,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 29,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 30,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 31,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 32,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 33,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 34,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 35,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 36,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 37,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 38,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 39,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 40,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 41,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 42,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 43,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 44,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 45,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 46,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 47,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 48,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    },
+    {
+      "food_id": 49,
+      "tag_slugs": [
+        "main-dishes",
+        "signature"
+      ]
+    }
+  ],
+  "restaurant_tags": [
+    {
+      "restaurant_id": 1,
+      "tag_slugs": [
+        "street-food",
+        "signature",
+        "taipa",
+        "budget-friendly",
+        "heritage",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 2,
+      "tag_slugs": [
+        "street-food",
+        "signature",
+        "taipa",
+        "budget-friendly",
+        "heritage",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 3,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature",
+        "coloane",
+        "budget-friendly",
+        "high-rated",
+        "heritage",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 4,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature",
+        "macau-peninsula",
+        "budget-friendly",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 5,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature",
+        "taipa",
+        "budget-friendly",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 6,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature",
+        "macau-peninsula",
+        "budget-friendly",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 7,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature",
+        "macau-peninsula",
+        "budget-friendly",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 8,
+      "tag_slugs": [
+        "dessert-shop",
+        "signature",
+        "macau-peninsula",
+        "budget-friendly",
+        "heritage",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 9,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature",
+        "macau-peninsula",
+        "premium",
+        "high-rated",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 10,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature",
+        "macau-peninsula",
+        "mid-range",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 11,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature",
+        "macau-peninsula",
+        "mid-range"
+      ]
+    },
+    {
+      "restaurant_id": 12,
+      "tag_slugs": [
+        "portuguese-cuisine",
+        "signature",
+        "macau-peninsula",
+        "mid-range",
+        "heritage",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 13,
+      "tag_slugs": [
+        "main-dishes",
+        "signature",
+        "macau-peninsula",
+        "mid-range",
+        "high-rated",
+        "heritage",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 14,
+      "tag_slugs": [
+        "main-dishes",
+        "signature",
+        "taipa",
+        "mid-range",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 15,
+      "tag_slugs": [
+        "main-dishes",
+        "signature",
+        "macau-peninsula",
+        "budget-friendly",
+        "local-favorite"
+      ]
+    },
+    {
+      "restaurant_id": 16,
+      "tag_slugs": [
+        "main-dishes",
+        "signature",
+        "taipa",
+        "mid-range",
+        "local-favorite"
+      ]
+    }
+  ],
+  "review_users": [
+    {
+      "username": "macao_walker",
+      "email": "macao.walker@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "taipa_bite",
+      "email": "taipa.bite@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "sweettooth_mo",
+      "email": "sweettooth.mo@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "oldtown_foodie",
+      "email": "oldtown.foodie@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "portugueseplate",
+      "email": "portuguese.plate@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "noodlefan_mo",
+      "email": "noodlefan.mo@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "bakeryhunter",
+      "email": "bakery.hunter@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "weekendtable",
+      "email": "weekend.table@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "local_lunch",
+      "email": "local.lunch@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "coloane_trip",
+      "email": "coloane.trip@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "citysnacker",
+      "email": "city.snacker@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "honestpalate",
+      "email": "honest.palate@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "familyfoodrun",
+      "email": "family.foodrun@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "map_eater",
+      "email": "map.eater@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "latebrunch",
+      "email": "late.brunch@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "dessert_note",
+      "email": "dessert.note@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "seafood_route",
+      "email": "seafood.route@example.com",
+      "locale": "zh"
+    },
+    {
+      "username": "quiet_taster",
+      "email": "quiet.taster@example.com",
+      "locale": "zh"
+    }
+  ],
+  "reviews": [
+    {
+      "restaurant_id": 1,
+      "username": "macao_walker",
+      "food_id": 1,
+      "rating": 4,
+      "comment": "豬扒包很穩，熱食更好。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "taipa_bite",
+      "food_id": 2,
+      "rating": 4,
+      "comment": "出品快，咖哩魚蛋有記憶點。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "sweettooth_mo",
+      "food_id": 3,
+      "rating": 4,
+      "comment": "豬扒包比預期好吃。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "oldtown_foodie",
+      "food_id": 1,
+      "rating": 5,
+      "comment": "大利來記的位置方便，這次點了豬扒包和咖哩魚蛋。味道不花巧，但做得穩，價格親民，當作下午茶剛剛好。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "portugueseplate",
+      "food_id": 2,
+      "rating": 4,
+      "comment": "朋友推薦來試，咖哩魚蛋確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試豬扒包。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "noodlefan_mo",
+      "food_id": 3,
+      "rating": 3,
+      "comment": "味道是舒服的，豬扒麵沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "bakeryhunter",
+      "food_id": 1,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。豬扒包一上桌香氣就很明顯，咖哩魚蛋也有自己的特色；兩樣配起來不會太膩。節奏很街坊，翻桌快，熱食比外帶更好吃，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "weekendtable",
+      "food_id": 2,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對咖哩魚蛋的評價都不錯。豬扒麵的味道比較有層次，豬扒包則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 1,
+      "username": "local_lunch",
+      "food_id": 3,
+      "rating": 5,
+      "comment": "大利來記給人的感覺很有本地日常味。路過氹仔時順手買最合適，點豬扒麵基本不會錯，豬扒包也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "noodlefan_mo",
+      "food_id": 4,
+      "rating": 4,
+      "comment": "雞仔餅很穩，熱食更好。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "bakeryhunter",
+      "food_id": 5,
+      "rating": 4,
+      "comment": "出品快，合桃酥有記憶點。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "weekendtable",
+      "food_id": 6,
+      "rating": 4,
+      "comment": "香蕉糕比預期好吃。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "local_lunch",
+      "food_id": 7,
+      "rating": 5,
+      "comment": "晃記餅家的位置方便，這次點了香蕉糕和雞仔餅。味道不花巧，但做得穩，價格親民，當作下午茶剛剛好。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "coloane_trip",
+      "food_id": 4,
+      "rating": 4,
+      "comment": "朋友推薦來試，雞仔餅確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試金錢餅。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "citysnacker",
+      "food_id": 5,
+      "rating": 3,
+      "comment": "味道是舒服的，合桃酥沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "honestpalate",
+      "food_id": 6,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。金錢餅一上桌香氣就很明顯，香蕉糕也有自己的特色；兩樣配起來不會太膩。節奏很街坊，翻桌快，熱食比外帶更好吃，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "familyfoodrun",
+      "food_id": 7,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對香蕉糕的評價都不錯。雞仔餅的味道比較有層次，合桃酥則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 2,
+      "username": "map_eater",
+      "food_id": 4,
+      "rating": 5,
+      "comment": "晃記餅家給人的感覺很有本地日常味。路過氹仔時順手買最合適，點雞仔餅基本不會錯，合桃酥也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "citysnacker",
+      "food_id": 8,
+      "rating": 5,
+      "comment": "葡式蛋撻很穩，熱食更好。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "honestpalate",
+      "food_id": 9,
+      "rating": 5,
+      "comment": "出品快，芝士蛋糕有記憶點。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "familyfoodrun",
+      "food_id": 10,
+      "rating": 5,
+      "comment": "葡式蛋撻比預期好吃。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "map_eater",
+      "food_id": 8,
+      "rating": 4,
+      "comment": "安德魯餅店（路環總店）的位置方便，這次點了葡式蛋撻和芝士蛋糕。味道不花巧，但做得穩，份量不算誇張，但很適合和朋友分著試。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "latebrunch",
+      "food_id": 9,
+      "rating": 5,
+      "comment": "朋友推薦來試，芝士蛋糕確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試葡式蛋撻。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "dessert_note",
+      "food_id": 10,
+      "rating": 4,
+      "comment": "店內人流不少，但安排還算順。葡式蛋撻口感好，牛角包味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "seafood_route",
+      "food_id": 8,
+      "rating": 5,
+      "comment": "週末過來人不少，但等位比想像中快。葡式蛋撻一上桌香氣就很明顯，芝士蛋糕也有自己的特色；兩樣配起來不會太膩。甜度控制得舒服，香氣比照片更有記憶點，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "quiet_taster",
+      "food_id": 9,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對芝士蛋糕的評價都不錯。牛角包的味道比較有層次，葡式蛋撻則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 3,
+      "username": "macao_walker",
+      "food_id": 10,
+      "rating": 5,
+      "comment": "安德魯餅店（路環總店）給人的感覺很有本地日常味。下午茶或飯後甜品都合適，點牛角包基本不會錯，葡式蛋撻也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "dessert_note",
+      "food_id": 8,
+      "rating": 4,
+      "comment": "葡式蛋撻很穩，熱食更好。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "seafood_route",
+      "food_id": 11,
+      "rating": 4,
+      "comment": "出品快，凍奶茶有記憶點。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "quiet_taster",
+      "food_id": 1,
+      "rating": 5,
+      "comment": "葡式蛋撻比預期好吃。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "macao_walker",
+      "food_id": 8,
+      "rating": 4,
+      "comment": "瑪嘉烈蛋撻的位置方便，這次點了葡式蛋撻和凍奶茶。味道不花巧，但做得穩，份量不算誇張，但很適合和朋友分著試。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "taipa_bite",
+      "food_id": 11,
+      "rating": 4,
+      "comment": "朋友推薦來試，凍奶茶確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試葡式蛋撻。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "sweettooth_mo",
+      "food_id": 1,
+      "rating": 5,
+      "comment": "店內人流不少，但安排還算順。葡式蛋撻口感好，豬扒包味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "oldtown_foodie",
+      "food_id": 8,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。葡式蛋撻一上桌香氣就很明顯，凍奶茶也有自己的特色；兩樣配起來不會太膩。甜度控制得舒服，香氣比照片更有記憶點，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "portugueseplate",
+      "food_id": 11,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對凍奶茶的評價都不錯。豬扒包的味道比較有層次，葡式蛋撻則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 4,
+      "username": "noodlefan_mo",
+      "food_id": 1,
+      "rating": 4,
+      "comment": "瑪嘉烈蛋撻給人的感覺很有本地日常味。下午茶或飯後甜品都合適，點豬扒包基本不會錯，葡式蛋撻也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "sweettooth_mo",
+      "food_id": 12,
+      "rating": 4,
+      "comment": "貓山王榴槤雪糕很穩，熱食更好。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "oldtown_foodie",
+      "food_id": 13,
+      "rating": 4,
+      "comment": "出品快，大菜糕有記憶點。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "portugueseplate",
+      "food_id": 14,
+      "rating": 4,
+      "comment": "貓山王榴槤雪糕比預期好吃。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "noodlefan_mo",
+      "food_id": 12,
+      "rating": 5,
+      "comment": "莫義記的位置方便，這次點了貓山王榴槤雪糕和大菜糕。味道不花巧，但做得穩，份量不算誇張，但很適合和朋友分著試。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "bakeryhunter",
+      "food_id": 13,
+      "rating": 4,
+      "comment": "朋友推薦來試，大菜糕確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試貓山王榴槤雪糕。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "weekendtable",
+      "food_id": 14,
+      "rating": 3,
+      "comment": "味道是舒服的，木糠布甸沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "local_lunch",
+      "food_id": 12,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。貓山王榴槤雪糕一上桌香氣就很明顯，大菜糕也有自己的特色；兩樣配起來不會太膩。甜度控制得舒服，香氣比照片更有記憶點，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "coloane_trip",
+      "food_id": 13,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對大菜糕的評價都不錯。木糠布甸的味道比較有層次，貓山王榴槤雪糕則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 5,
+      "username": "citysnacker",
+      "food_id": 14,
+      "rating": 5,
+      "comment": "莫義記給人的感覺很有本地日常味。下午茶或飯後甜品都合適，點木糠布甸基本不會錯，貓山王榴槤雪糕也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "weekendtable",
+      "food_id": 15,
+      "rating": 4,
+      "comment": "雙皮奶很穩，熱食更好。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "local_lunch",
+      "food_id": 16,
+      "rating": 4,
+      "comment": "出品快，薑汁撞奶有記憶點。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "coloane_trip",
+      "food_id": 17,
+      "rating": 4,
+      "comment": "燉奶比預期好吃。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "citysnacker",
+      "food_id": 18,
+      "rating": 5,
+      "comment": "義順牛奶公司的位置方便，這次點了燉奶和雙皮奶。味道不花巧，但做得穩，份量不算誇張，但很適合和朋友分著試。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "honestpalate",
+      "food_id": 15,
+      "rating": 4,
+      "comment": "朋友推薦來試，雙皮奶確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試雞蛋布甸。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "familyfoodrun",
+      "food_id": 16,
+      "rating": 3,
+      "comment": "味道是舒服的，薑汁撞奶沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "map_eater",
+      "food_id": 17,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。雞蛋布甸一上桌香氣就很明顯，燉奶也有自己的特色；兩樣配起來不會太膩。甜度控制得舒服，香氣比照片更有記憶點，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "latebrunch",
+      "food_id": 18,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對燉奶的評價都不錯。雙皮奶的味道比較有層次，薑汁撞奶則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 6,
+      "username": "dessert_note",
+      "food_id": 15,
+      "rating": 5,
+      "comment": "義順牛奶公司給人的感覺很有本地日常味。下午茶或飯後甜品都合適，點雙皮奶基本不會錯，薑汁撞奶也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "familyfoodrun",
+      "food_id": 19,
+      "rating": 4,
+      "comment": "焗蛋白很穩，熱食更好。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "map_eater",
+      "food_id": 20,
+      "rating": 4,
+      "comment": "出品快，三文治雪糕有記憶點。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "latebrunch",
+      "food_id": 21,
+      "rating": 4,
+      "comment": "椰子雪糕比預期好吃。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "dessert_note",
+      "food_id": 22,
+      "rating": 5,
+      "comment": "禮記雪糕的位置方便，這次點了椰子雪糕和焗蛋白。味道不花巧，但做得穩，份量不算誇張，但很適合和朋友分著試。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "seafood_route",
+      "food_id": 19,
+      "rating": 4,
+      "comment": "朋友推薦來試，焗蛋白確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試芒果雪糕。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "quiet_taster",
+      "food_id": 20,
+      "rating": 3,
+      "comment": "味道是舒服的，三文治雪糕沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "macao_walker",
+      "food_id": 21,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。芒果雪糕一上桌香氣就很明顯，椰子雪糕也有自己的特色；兩樣配起來不會太膩。甜度控制得舒服，香氣比照片更有記憶點，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "taipa_bite",
+      "food_id": 22,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對椰子雪糕的評價都不錯。焗蛋白的味道比較有層次，三文治雪糕則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 7,
+      "username": "sweettooth_mo",
+      "food_id": 19,
+      "rating": 5,
+      "comment": "禮記雪糕給人的感覺很有本地日常味。下午茶或飯後甜品都合適，點焗蛋白基本不會錯，三文治雪糕也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "quiet_taster",
+      "food_id": 23,
+      "rating": 4,
+      "comment": "杏仁餅很穩，熱食更好。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "macao_walker",
+      "food_id": 24,
+      "rating": 4,
+      "comment": "出品快，唐餅有記憶點。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "taipa_bite",
+      "food_id": 25,
+      "rating": 4,
+      "comment": "杏仁餅比預期好吃。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "sweettooth_mo",
+      "food_id": 23,
+      "rating": 5,
+      "comment": "咀香園餅家的位置方便，這次點了杏仁餅和唐餅。味道不花巧，但做得穩，份量不算誇張，但很適合和朋友分著試。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "oldtown_foodie",
+      "food_id": 24,
+      "rating": 4,
+      "comment": "朋友推薦來試，唐餅確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試杏仁餅。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "portugueseplate",
+      "food_id": 25,
+      "rating": 3,
+      "comment": "味道是舒服的，鳳凰卷沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "noodlefan_mo",
+      "food_id": 23,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。杏仁餅一上桌香氣就很明顯，唐餅也有自己的特色；兩樣配起來不會太膩。甜度控制得舒服，香氣比照片更有記憶點，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "bakeryhunter",
+      "food_id": 24,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對唐餅的評價都不錯。鳳凰卷的味道比較有層次，杏仁餅則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 8,
+      "username": "weekendtable",
+      "food_id": 25,
+      "rating": 5,
+      "comment": "咀香園餅家給人的感覺很有本地日常味。下午茶或飯後甜品都合適，點鳳凰卷基本不會錯，杏仁餅也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "portugueseplate",
+      "food_id": 26,
+      "rating": 5,
+      "comment": "吞拿魚沙律很穩，熱食更好。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "noodlefan_mo",
+      "food_id": 27,
+      "rating": 5,
+      "comment": "出品快，葡式海鮮飯有記憶點。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "bakeryhunter",
+      "food_id": 28,
+      "rating": 4,
+      "comment": "木糠布甸比預期好吃。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "weekendtable",
+      "food_id": 14,
+      "rating": 5,
+      "comment": "Albergue 1601（婆仔屋）的位置方便，這次點了木糠布甸和吞拿魚沙律。味道不花巧，但做得穩，價錢比小吃高一些，但主菜份量和環境都對得起。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "local_lunch",
+      "food_id": 26,
+      "rating": 4,
+      "comment": "朋友推薦來試，吞拿魚沙律確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試燒乳豬。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "coloane_trip",
+      "food_id": 27,
+      "rating": 5,
+      "comment": "店內人流不少，但安排還算順。燒乳豬口感好，葡式海鮮飯味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "citysnacker",
+      "food_id": 28,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。燒乳豬一上桌香氣就很明顯，木糠布甸也有自己的特色；兩樣配起來不會太膩。葡式調味比較完整，醬汁、香料和火候都有層次，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "honestpalate",
+      "food_id": 14,
+      "rating": 5,
+      "comment": "這次是帶家人一起來，大家對木糠布甸的評價都不錯。吞拿魚沙律的味道比較有層次，葡式海鮮飯則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 9,
+      "username": "familyfoodrun",
+      "food_id": 26,
+      "rating": 4,
+      "comment": "Albergue 1601（婆仔屋）給人的感覺很有本地日常味。適合慢慢吃一餐，也適合帶外地朋友來，點吞拿魚沙律基本不會錯，葡式海鮮飯也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "coloane_trip",
+      "food_id": 29,
+      "rating": 4,
+      "comment": "葡式海鮮湯很穩，熱食更好。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "citysnacker",
+      "food_id": 30,
+      "rating": 4,
+      "comment": "出品快，焗鴨飯有記憶點。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "honestpalate",
+      "food_id": 31,
+      "rating": 5,
+      "comment": "馬介休球比預期好吃。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "familyfoodrun",
+      "food_id": 32,
+      "rating": 4,
+      "comment": "海灣餐廳的位置方便，這次點了馬介休球和葡式海鮮湯。味道不花巧，但做得穩，價錢比小吃高一些，但主菜份量和環境都對得起。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "map_eater",
+      "food_id": 29,
+      "rating": 4,
+      "comment": "朋友推薦來試，葡式海鮮湯確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試薯茸焗馬介休。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "latebrunch",
+      "food_id": 30,
+      "rating": 5,
+      "comment": "店內人流不少，但安排還算順。薯茸焗馬介休口感好，焗鴨飯味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "dessert_note",
+      "food_id": 31,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。薯茸焗馬介休一上桌香氣就很明顯，馬介休球也有自己的特色；兩樣配起來不會太膩。葡式調味比較完整，醬汁、香料和火候都有層次，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "seafood_route",
+      "food_id": 32,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對馬介休球的評價都不錯。葡式海鮮湯的味道比較有層次，焗鴨飯則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 10,
+      "username": "quiet_taster",
+      "food_id": 29,
+      "rating": 4,
+      "comment": "海灣餐廳給人的感覺很有本地日常味。適合慢慢吃一餐，也適合帶外地朋友來，點葡式海鮮湯基本不會錯，焗鴨飯也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "latebrunch",
+      "food_id": 33,
+      "rating": 4,
+      "comment": "葡式炒蜆很穩，熱食更好。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "dessert_note",
+      "food_id": 34,
+      "rating": 4,
+      "comment": "出品快，非洲雞有記憶點。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "seafood_route",
+      "food_id": 35,
+      "rating": 4,
+      "comment": "葡國雞比預期好吃。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "quiet_taster",
+      "food_id": 36,
+      "rating": 5,
+      "comment": "沙利文餐廳的位置方便，這次點了葡國雞和葡式炒蜆。味道不花巧，但做得穩，價錢比小吃高一些，但主菜份量和環境都對得起。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "macao_walker",
+      "food_id": 33,
+      "rating": 3,
+      "comment": "這次試了葡式炒蜆和非洲雞，水準有到，但驚喜不算很多。價格可以接受，勝在地點方便。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "taipa_bite",
+      "food_id": 34,
+      "rating": 4,
+      "comment": "店內人流不少，但安排還算順。薯絲炒馬介休口感好，非洲雞味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "sweettooth_mo",
+      "food_id": 35,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。薯絲炒馬介休一上桌香氣就很明顯，葡國雞也有自己的特色；兩樣配起來不會太膩。葡式調味比較完整，醬汁、香料和火候都有層次，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "oldtown_foodie",
+      "food_id": 36,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對葡國雞的評價都不錯。葡式炒蜆的味道比較有層次，非洲雞則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 11,
+      "username": "portugueseplate",
+      "food_id": 33,
+      "rating": 4,
+      "comment": "沙利文餐廳給人的感覺很有本地日常味。適合慢慢吃一餐，也適合帶外地朋友來，點葡式炒蜆基本不會錯，非洲雞也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "taipa_bite",
+      "food_id": 37,
+      "rating": 4,
+      "comment": "葡式釀魷魚很穩，熱食更好。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "sweettooth_mo",
+      "food_id": 34,
+      "rating": 4,
+      "comment": "出品快，非洲雞有記憶點。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "oldtown_foodie",
+      "food_id": 38,
+      "rating": 5,
+      "comment": "咖哩炒蟹比預期好吃。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "portugueseplate",
+      "food_id": 39,
+      "rating": 4,
+      "comment": "佛笑樓餐廳的位置方便，這次點了咖哩炒蟹和葡式釀魷魚。味道不花巧，但做得穩，價錢比小吃高一些，但主菜份量和環境都對得起。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "noodlefan_mo",
+      "food_id": 37,
+      "rating": 4,
+      "comment": "朋友推薦來試，葡式釀魷魚確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試焗骨飯。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "bakeryhunter",
+      "food_id": 34,
+      "rating": 5,
+      "comment": "店內人流不少，但安排還算順。焗骨飯口感好，非洲雞味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "weekendtable",
+      "food_id": 38,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。焗骨飯一上桌香氣就很明顯，咖哩炒蟹也有自己的特色；兩樣配起來不會太膩。葡式調味比較完整，醬汁、香料和火候都有層次，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "local_lunch",
+      "food_id": 39,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對咖哩炒蟹的評價都不錯。葡式釀魷魚的味道比較有層次，非洲雞則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 12,
+      "username": "coloane_trip",
+      "food_id": 37,
+      "rating": 4,
+      "comment": "佛笑樓餐廳給人的感覺很有本地日常味。適合慢慢吃一餐，也適合帶外地朋友來，點葡式釀魷魚基本不會錯，非洲雞也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "bakeryhunter",
+      "food_id": 40,
+      "rating": 5,
+      "comment": "雲吞麵很穩，熱食更好。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "weekendtable",
+      "food_id": 41,
+      "rating": 4,
+      "comment": "出品快，水蟹粥有記憶點。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "local_lunch",
+      "food_id": 42,
+      "rating": 4,
+      "comment": "雲吞麵比預期好吃。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "coloane_trip",
+      "food_id": 40,
+      "rating": 5,
+      "comment": "黃枝記的位置方便，這次點了雲吞麵和水蟹粥。味道不花巧，但做得穩，性價比不錯，適合想吃得飽的人。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "citysnacker",
+      "food_id": 41,
+      "rating": 4,
+      "comment": "朋友推薦來試，水蟹粥確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試雲吞麵。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "honestpalate",
+      "food_id": 42,
+      "rating": 4,
+      "comment": "店內人流不少，但安排還算順。雲吞麵口感好，咖哩大蝦味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "familyfoodrun",
+      "food_id": 40,
+      "rating": 5,
+      "comment": "週末過來人不少，但等位比想像中快。雲吞麵一上桌香氣就很明顯，水蟹粥也有自己的特色；兩樣配起來不會太膩。主菜味道扎實，份量夠，配飯或麵都很飽足，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "map_eater",
+      "food_id": 41,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對水蟹粥的評價都不錯。咖哩大蝦的味道比較有層次，雲吞麵則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 13,
+      "username": "latebrunch",
+      "food_id": 42,
+      "rating": 4,
+      "comment": "黃枝記給人的感覺很有本地日常味。午餐或晚餐都很實用，點咖哩大蝦基本不會錯，雲吞麵也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "honestpalate",
+      "food_id": 43,
+      "rating": 4,
+      "comment": "澳門式免治很穩，熱食更好。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "familyfoodrun",
+      "food_id": 1,
+      "rating": 4,
+      "comment": "出品快，豬扒包有記憶點。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "map_eater",
+      "food_id": 44,
+      "rating": 5,
+      "comment": "澳門式免治比預期好吃。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "latebrunch",
+      "food_id": 43,
+      "rating": 4,
+      "comment": "利安咖啡屋的位置方便，這次點了澳門式免治和豬扒包。味道不花巧，但做得穩，性價比不錯，適合想吃得飽的人。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "dessert_note",
+      "food_id": 1,
+      "rating": 4,
+      "comment": "朋友推薦來試，豬扒包確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試澳門式免治。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "seafood_route",
+      "food_id": 44,
+      "rating": 5,
+      "comment": "店內人流不少，但安排還算順。澳門式免治口感好，咖哩牛腩飯味道更突出，適合第一次來澳門找經典口味。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "quiet_taster",
+      "food_id": 43,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。澳門式免治一上桌香氣就很明顯，豬扒包也有自己的特色；兩樣配起來不會太膩。主菜味道扎實，份量夠，配飯或麵都很飽足，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "macao_walker",
+      "food_id": 1,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對豬扒包的評價都不錯。咖哩牛腩飯的味道比較有層次，澳門式免治則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 14,
+      "username": "taipa_bite",
+      "food_id": 44,
+      "rating": 4,
+      "comment": "利安咖啡屋給人的感覺很有本地日常味。午餐或晚餐都很實用，點咖哩牛腩飯基本不會錯，澳門式免治也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "seafood_route",
+      "food_id": 45,
+      "rating": 4,
+      "comment": "燒鴨瀨粉很穩，熱食更好。",
+      "created_at": "2026-03-24 14:22:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "quiet_taster",
+      "food_id": 46,
+      "rating": 4,
+      "comment": "出品快，黑椒燒鵝有記憶點。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "macao_walker",
+      "food_id": 47,
+      "rating": 4,
+      "comment": "燒鴨瀨粉比預期好吃。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "taipa_bite",
+      "food_id": 45,
+      "rating": 5,
+      "comment": "陳光記飯店的位置方便，這次點了燒鴨瀨粉和黑椒燒鵝。味道不花巧，但做得穩，性價比不錯，適合想吃得飽的人。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "sweettooth_mo",
+      "food_id": 46,
+      "rating": 4,
+      "comment": "朋友推薦來試，黑椒燒鵝確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試燒鴨瀨粉。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "oldtown_foodie",
+      "food_id": 47,
+      "rating": 3,
+      "comment": "味道是舒服的，燒焗馬介休沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "portugueseplate",
+      "food_id": 45,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。燒鴨瀨粉一上桌香氣就很明顯，黑椒燒鵝也有自己的特色；兩樣配起來不會太膩。主菜味道扎實，份量夠，配飯或麵都很飽足，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "noodlefan_mo",
+      "food_id": 46,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對黑椒燒鵝的評價都不錯。燒焗馬介休的味道比較有層次，燒鴨瀨粉則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 15,
+      "username": "bakeryhunter",
+      "food_id": 47,
+      "rating": 5,
+      "comment": "陳光記飯店給人的感覺很有本地日常味。午餐或晚餐都很實用，點燒焗馬介休基本不會錯，燒鴨瀨粉也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "oldtown_foodie",
+      "food_id": 48,
+      "rating": 4,
+      "comment": "紅酒燴牛尾很穩，熱食更好。",
+      "created_at": "2026-03-11 11:48:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "portugueseplate",
+      "food_id": 49,
+      "rating": 4,
+      "comment": "出品快，椒鹽九肚魚有記憶點。",
+      "created_at": "2026-02-25 20:05:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "noodlefan_mo",
+      "food_id": 41,
+      "rating": 4,
+      "comment": "咖哩大蝦比預期好吃。",
+      "created_at": "2026-02-09 16:30:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "bakeryhunter",
+      "food_id": 42,
+      "rating": 5,
+      "comment": "氹仔漁村的位置方便，這次點了咖哩大蝦和紅酒燴牛尾。味道不花巧，但做得穩，性價比不錯，適合想吃得飽的人。",
+      "created_at": "2026-05-02 13:18:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "weekendtable",
+      "food_id": 48,
+      "rating": 4,
+      "comment": "朋友推薦來試，紅酒燴牛尾確實是招牌水準。整體服務自然，等候時間可接受，會想再回來試水蟹粥。",
+      "created_at": "2026-04-29 18:42:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "local_lunch",
+      "food_id": 49,
+      "rating": 3,
+      "comment": "味道是舒服的，椒鹽九肚魚沒有踩雷。只是人多時體驗會打折，適合抱著輕鬆試味的心情來。",
+      "created_at": "2026-04-21 15:05:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "coloane_trip",
+      "food_id": 41,
+      "rating": 4,
+      "comment": "週末過來人不少，但等位比想像中快。水蟹粥一上桌香氣就很明顯，咖哩大蝦也有自己的特色；兩樣配起來不會太膩。主菜味道扎實，份量夠，配飯或麵都很飽足，整體吃完會明白為什麼這家店常被放進澳門美食清單。",
+      "created_at": "2026-04-14 12:36:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "citysnacker",
+      "food_id": 42,
+      "rating": 4,
+      "comment": "這次是帶家人一起來，大家對咖哩大蝦的評價都不錯。紅酒燴牛尾的味道比較有層次，椒鹽九肚魚則適合想試招牌但不想吃太重口的人。環境未必豪華，但服務節奏順，從點餐到上菜都沒有拖太久，作為行程中的一餐很安心。",
+      "created_at": "2026-04-02 19:10:00"
+    },
+    {
+      "restaurant_id": 16,
+      "username": "honestpalate",
+      "food_id": 48,
+      "rating": 5,
+      "comment": "氹仔漁村給人的感覺很有本地日常味。午餐或晚餐都很實用，點紅酒燴牛尾基本不會錯，椒鹽九肚魚也值得加一份。細節上不算完美，但食物溫度、調味和份量都抓得住，吃完不會覺得只是打卡。",
+      "created_at": "2026-03-24 14:22:00"
+    }
+  ]
+}

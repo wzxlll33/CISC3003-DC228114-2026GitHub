@@ -1,0 +1,334 @@
+/* ==========================================================================
+   TASTE OF MACAU — Layout System
+   Container · Page shells · Catalog · Dashboard · Responsive
+   ========================================================================== */
+
+/* ── Container ── */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-px, var(--space-6));
+}
+
+.container--narrow {
+  max-width: var(--container-narrow);
+}
+
+.container--wide {
+  max-width: var(--container-wide);
+}
+
+/* ── Page wrapper ── */
+.page {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+}
+
+.page__body {
+  flex: 1;
+  padding-top: var(--nav-height, var(--navbar-height));
+}
+
+/* ── Navbar spacer ── */
+.navbar-spacer {
+  height: var(--nav-height, var(--navbar-height));
+}
+
+/* ── Site main — offset for fixed header ── */
+.site-main {
+  padding-top: var(--nav-height, var(--navbar-height));
+  min-height: calc(100dvh - var(--nav-height, var(--navbar-height)));
+}
+
+/* ── Catalog page layout ── */
+.catalog-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  padding: var(--space-6);
+  max-width: var(--container-max);
+  margin-inline: auto;
+}
+
+/* BEM: catalog-page__grid + catalog-page__map (60/40 split) */
+.catalog-page__content {
+  display: grid;
+  grid-template-columns: var(--grid-panel-width, 60%) var(--map-panel-width, 40%);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.catalog-page__grid,
+.catalog-page__cards-panel {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.catalog-page__map,
+.catalog-page__map-panel {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  position: sticky;
+  top: calc(var(--nav-height, 64px) + var(--space-4));
+}
+
+/* ── Dashboard layout ── */
+.dashboard {
+  display: flex;
+  align-items: stretch;
+  min-height: 100dvh;
+  background: var(--color-snow);
+}
+
+.dashboard__sidebar {
+  width: var(--sidebar-width);
+  flex: 0 0 var(--sidebar-width);
+  background: var(--color-macau-dark);
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  overflow-y: auto;
+}
+
+.dashboard__content {
+  flex: 1;
+  min-width: 0;
+  padding: var(--space-8);
+  background: var(--color-snow);
+  box-sizing: border-box;
+}
+
+/* ── Auth page layout ── */
+.auth-layout {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6);
+  background: var(--color-surface);
+}
+
+/* ── Food detail layout ── */
+.food-detail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  padding: var(--space-6);
+  max-width: var(--container-max);
+  margin-inline: auto;
+}
+
+.food-detail__panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: var(--space-8);
+  padding: var(--space-8);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Section header pattern ── */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.section-header__title {
+  margin: 0;
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* ── Grid patterns ── */
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-5);
+  padding: var(--space-6);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5);
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+  align-items: start;
+}
+
+/* ── Map containers ── */
+#map-container {
+  min-height: 500px;
+  height: calc(100dvh - 200px);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#food-detail-map {
+  min-height: 300px;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ── Landing page full-width sections ── */
+.landing-section {
+  width: 100%;
+}
+
+.landing-section--light {
+  background: var(--color-surface);
+}
+
+.landing-section--dark {
+  background: var(--color-macau-dark);
+}
+
+/* ── Responsive: 1280px ── */
+@media (max-width: 1280px) {
+  .container {
+    padding-inline: var(--space-6);
+  }
+}
+
+/* ── Responsive: 1024px ── */
+@media (max-width: 1024px) {
+  .catalog-page__content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dashboard__content {
+    padding: var(--space-6);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ── Responsive: 897px ── */
+@media (max-width: 897px) {
+  .catalog-page__content {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-page__map,
+  .catalog-page__map-panel {
+    order: -1;
+    position: static;
+  }
+
+  /* Only override map height for catalog page, not explore page */
+  .catalog-page #map-container {
+    min-height: 320px;
+    height: 320px;
+  }
+
+  .food-detail__panel {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .dashboard__sidebar {
+    width: 100%;
+    flex-basis: auto;
+    height: auto;
+    position: static;
+    overflow-y: visible;
+  }
+
+  .dashboard__content {
+    padding: var(--space-6) var(--space-4) var(--space-8);
+  }
+
+  .two-col-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Responsive: 768px ── */
+@media (max-width: 768px) {
+  .container {
+    padding-inline: var(--space-4);
+  }
+
+  .catalog-page {
+    padding: var(--space-4);
+    gap: var(--space-4);
+  }
+
+  .food-detail {
+    padding: var(--space-4);
+  }
+
+  .food-detail__panel {
+    padding: var(--space-5);
+  }
+
+  .food-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-4);
+    padding: var(--space-4);
+  }
+}
+
+/* ── Responsive: 600px ── */
+@media (max-width: 600px) {
+  .food-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ── Responsive: 425px ── */
+@media (max-width: 425px) {
+  .food-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .food-detail__panel {
+    padding: var(--space-4);
+  }
+}
+
+/* ── Mobile container padding (min 16px) ── */
+@media (max-width: 768px) {
+  .container,
+  .landing-page__container {
+    padding-inline: var(--space-4); /* 16px */
+  }
+}
+
+@media (max-width: 425px) {
+  .container,
+  .landing-page__container {
+    padding-inline: var(--space-4); /* 16px minimum, never less */
+  }
+}
