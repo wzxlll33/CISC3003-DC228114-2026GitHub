@@ -1,0 +1,21 @@
+<?php
+require __DIR__ . "/php/connect.php";
+$message = "";
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $name = trim($_POST["full_name"] ?? "");
+    $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+    $password = $_POST["password"] ?? "";
+    if ($name && $email && strlen($password) >= 8) {
+        $hash = password_hash($password, PASSWORD_DEFAULT);
+        $stmt = $mysqli->prepare("INSERT INTO demo_users (full_name, email, password_hash) VALUES (?, ?, ?)");
+        $stmt->bind_param("sss", $name, $email, $hash);
+        $message = $stmt->execute() ? "Demo user registered." : "Email may already exist.";
+    } else {
+        $message = "Please enter a name, valid email, and password of at least 8 characters.";
+    }
+}
+?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Scenario A Register</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<header><h1>Scenario A Register</h1><nav><a href="index.php">Form</a><a href="login.php" class="secondary">Login</a></nav></header>
+<main><form method="post"><h2>Register Demo User</h2><?php if ($message): ?><div class="message"><?= htmlspecialchars($message) ?></div><?php endif; ?><label>Full Name</label><input name="full_name" required><label>Email</label><input type="email" name="email" required><label>Password</label><input type="password" name="password" minlength="8" required><div class="actions"><button>Register</button></div></form></main>
+<footer><p>CISC3003 Web Programming: Kris Wu Zexian + DC228114 + 2026</p></footer></body></html>

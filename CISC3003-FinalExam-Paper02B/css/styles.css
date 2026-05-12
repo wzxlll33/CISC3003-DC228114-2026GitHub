@@ -1,0 +1,227 @@
+﻿:root {
+    --ink: #171827;
+    --text: #303948;
+    --muted: #747b86;
+    --line: #d8dbe0;
+    --page: #eef0f4;
+    --card: #ffffff;
+    --field: #fbfbfc;
+    --brand: #1f2a44;
+    --brand-dark: #111827;
+    --dark: #1f2937;
+    --ok: #157347;
+    --warn: #9a5b00;
+    --bad: #b42318;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--page);
+    line-height: 1.55;
+}
+
+header {
+    width: min(820px, calc(100% - 32px));
+    margin: 54px auto 0;
+    padding: 54px 54px 12px;
+    background: var(--card);
+    color: var(--ink);
+    border-radius: 14px 14px 0 0;
+    text-align: center;
+    box-shadow: 0 18px 42px rgba(15, 23, 42, 0.10);
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(30px, 4vw, 40px);
+    line-height: 1.15;
+    font-weight: 800;
+}
+
+header p {
+    margin: 14px auto 0;
+    color: var(--muted);
+    font-size: 18px;
+}
+
+nav { display: none; }
+
+main, .dashboard-shell {
+    width: min(820px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 24px 54px 58px;
+    background: var(--card);
+    border-radius: 0 0 14px 14px;
+    box-shadow: 0 18px 42px rgba(15, 23, 42, 0.10);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+}
+
+.panel, form, .card {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+form h2, .panel h2, .card h2 {
+    margin: 0 0 22px;
+    color: var(--ink);
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+label {
+    display: block;
+    margin: 22px 0 8px;
+    color: #303948;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+input, textarea, select {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    padding: 13px 16px;
+    font: inherit;
+    font-size: 18px;
+    background: var(--field);
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+input::placeholder, textarea::placeholder { color: #858b95; }
+
+input:focus, textarea:focus, select:focus {
+    border-color: #9ca3af;
+    box-shadow: 0 0 0 4px rgba(31, 42, 68, 0.14);
+}
+
+textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+.choice {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 18px 8px 0;
+    font-weight: 500;
+}
+
+.choice input {
+    width: 17px;
+    height: 17px;
+    accent-color: var(--brand);
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+button, .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 52px;
+    border: 0;
+    border-radius: 7px;
+    padding: 12px 18px;
+    background: var(--brand);
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+button:hover, .button:hover { background: var(--brand-dark); }
+
+.button.secondary {
+    background: #f5f6f8;
+    color: var(--dark);
+    border: 1px solid var(--line);
+}
+
+.message {
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 0 0 18px;
+    background: #eef6ff;
+    border: 1px solid #bdd7f0;
+}
+
+.success { background: #eefaf3; border-color: #b7e4c7; color: var(--ok); }
+.error { background: #fff2f0; border-color: #f5c2bd; color: var(--bad); }
+.warning { background: #fff8e8; border-color: #efd394; color: var(--warn); }
+.success-text { color: var(--ok); }
+.error-text { color: var(--bad); }
+
+code {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 2px 6px;
+}
+
+.small {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+}
+
+.service-card {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.service-card h3 { margin: 0 0 8px; color: var(--ink); }
+
+footer {
+    width: min(820px, calc(100% - 32px));
+    margin: 18px auto 38px;
+    padding: 14px 20px;
+    color: #6b7280;
+    text-align: center;
+    background: transparent;
+    border-top: 1px solid #dde1e7;
+}
+
+footer p { margin: 0; }
+
+@media (max-width: 720px) {
+    header {
+        margin-top: 22px;
+        padding: 34px 24px 10px;
+    }
+
+    main, .dashboard-shell {
+        padding: 18px 24px 38px;
+    }
+
+    .actions { flex-direction: column; }
+}
+

@@ -1,0 +1,5 @@
+<?php session_start(); $user = $_SESSION["demo_user"] ?? null; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Scenario A Dashboard</title><link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/dashboard.css"></head><body>
+<header><h1>Scenario A Dashboard</h1><nav><a href="index.php">Form</a><a href="logout.php" class="secondary">Logout</a></nav></header>
+<main class="dashboard-shell"><section class="panel"><?php if ($user): ?><h2>Welcome, <?= htmlspecialchars($user["full_name"]) ?></h2><p>You became a demo user on <?= htmlspecialchars($user["created_at"]) ?>.</p><?php else: ?><h2>Please log in</h2><p><a class="button" href="login.php">Login</a></p><?php endif; ?></section></main>
+<footer><p>CISC3003 Web Programming: Kris Wu Zexian + DC228114 + 2026</p></footer></body></html>
