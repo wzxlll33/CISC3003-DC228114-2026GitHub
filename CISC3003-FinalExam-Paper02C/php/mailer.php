@@ -2,6 +2,10 @@
 function send_course_mail(string $toEmail, string $toName, string $subject, string $body): array
 {
     $config = require __DIR__ . "/mail_config.php";
+    if (empty($config["username"]) || empty($config["password"])) {
+        return ["ok" => false, "debug" => "SMTP credentials are not configured. Use the classroom test link shown on this page."];
+    }
+
     $autoload = dirname(__DIR__) . "/vendor/autoload.php";
     if (!file_exists($autoload)) {
         return ["ok" => false, "debug" => "PHPMailer vendor/autoload.php not found. Run composer require phpmailer/phpmailer, then set SMTP credentials in php/mail_config.php."];
