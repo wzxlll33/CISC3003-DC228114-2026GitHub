@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require __DIR__ . "/php/connect.php";
 require __DIR__ . "/php/mailer.php";
 require __DIR__ . "/php/url.php";

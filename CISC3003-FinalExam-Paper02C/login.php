@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 require __DIR__ . "/php/connect.php";
 $error = "";

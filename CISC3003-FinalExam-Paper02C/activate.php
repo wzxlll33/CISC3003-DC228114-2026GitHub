@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require __DIR__ . "/php/connect.php";
 $message = "Invalid activation token.";
 $token = $_GET["token"] ?? "";
