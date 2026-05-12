@@ -18,7 +18,7 @@ if ($name === "" || !filter_var($email, FILTER_VALIDATE_EMAIL) || $subject === "
 }
 
 $result = send_course_mail($email, $name, $subject, $message);
-$mailStatus = $result["ok"] ? "sent" : "failed";
+$mailStatus = $result["status"] ?? ($result["ok"] ? "sent" : "failed");
 $debug = $result["debug"];
 
 $stmt = $mysqli->prepare("INSERT INTO contact_messages (name, email, subject, message, mail_status, debug_message) VALUES (?, ?, ?, ?, ?, ?)");

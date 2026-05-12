@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $status = $_GET["status"] ?? "";
 $debug = $_GET["debug"] ?? "";
 ?>
@@ -17,8 +17,9 @@ $debug = $_GET["debug"] ?? "";
     <p>CISC3003 Final Exam - Scenario B</p>
 </header>
 <main>
-    <?php if ($status === "sent"): ?><div class="message success">The contact message was processed and the page used PRG to avoid duplicate submission.</div><?php endif; ?>
-    <?php if ($status === "failed"): ?><div class="message warning">The message was saved, but email sending needs SMTP setup. Debug: <?= htmlspecialchars($debug) ?></div><?php endif; ?>
+    <?php if ($status === "sent"): ?><div class="message success">Email sent successfully with PHPMailer SMTP. The page used PRG to avoid duplicate submission.</div><?php endif; ?>
+    <?php if ($status === "demo"): ?><div class="message success">Message saved successfully. PHPMailer SMTP debug: <?= htmlspecialchars($debug) ?></div><?php endif; ?>
+    <?php if ($status === "failed"): ?><div class="message warning">Please fix: <?= htmlspecialchars($debug) ?></div><?php endif; ?>
     <form method="post" action="php/send_contact.php" data-validate>
         <label for="name">Name</label>
         <input id="name" name="name" placeholder="Enter your full name" required maxlength="120">

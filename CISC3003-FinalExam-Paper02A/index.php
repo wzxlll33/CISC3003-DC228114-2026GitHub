@@ -1,6 +1,6 @@
-﻿<?php
-require __DIR__ . "/php/connect.php";
+<?php
 session_start();
+require __DIR__ . "/php/connect.php";
 
 $errors = [];
 $success = "";
