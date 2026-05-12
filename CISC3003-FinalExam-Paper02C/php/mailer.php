@@ -13,6 +13,7 @@ function send_course_mail(string $toEmail, string $toName, string $subject, stri
     require $autoload;
     try {
         $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+        $mail->CharSet = "UTF-8";
         $mail->isSMTP();
         $mail->Host = $config["host"];
         $mail->SMTPAuth = true;
@@ -20,6 +21,7 @@ function send_course_mail(string $toEmail, string $toName, string $subject, stri
         $mail->Password = $config["password"];
         $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = $config["port"];
+        $mail->Timeout = 10;
         $mail->SMTPDebug = $config["debug"];
         $mail->setFrom($config["from_email"], $config["from_name"]);
         $mail->addAddress($toEmail, $toName);
