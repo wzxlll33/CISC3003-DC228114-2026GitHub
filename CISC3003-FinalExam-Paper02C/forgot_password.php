@@ -1,6 +1,7 @@
 ﻿<?php
 require __DIR__ . "/php/connect.php";
 require __DIR__ . "/php/mailer.php";
+require __DIR__ . "/php/url.php";
 $notice = "";
 $resetLink = "";
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -12,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt = $mysqli->prepare("UPDATE users SET reset_token_hash = ?, reset_token_expires_at = ? WHERE email = ?");
         $stmt->bind_param("sss", $hash, $expires, $email);
         $stmt->execute();
-        $resetLink = "http://localhost/CISC3003-FinalExam-Paper02C/reset_password.php?token=" . urlencode($token);
+        $resetLink = app_url("reset_password.php", ["token" => $token]);
         $mail = send_course_mail($email, "CISC3003 User", "Password reset", "Reset your password: " . $resetLink);
         $notice = "If the email exists, a reset link has been prepared. Mail status: " . $mail["debug"];
     }

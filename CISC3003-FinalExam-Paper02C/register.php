@@ -1,6 +1,7 @@
 ﻿<?php
 require __DIR__ . "/php/connect.php";
 require __DIR__ . "/php/mailer.php";
+require __DIR__ . "/php/url.php";
 $errors = [];
 $notice = "";
 $activationLink = "";
@@ -29,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->bind_param("ssss", $name, $email, $passwordHash, $activationHash);
         $stmt->execute();
 
-        $activationLink = "http://localhost/CISC3003-FinalExam-Paper02C/activate.php?token=" . urlencode($activationToken);
+        $activationLink = app_url("activate.php", ["token" => $activationToken]);
         $mail = send_course_mail($email, $name, "Account activation", "Click this link to activate your account: " . $activationLink);
         $notice = "Account created. Please confirm your email before login. Mail status: " . $mail["debug"];
     }
